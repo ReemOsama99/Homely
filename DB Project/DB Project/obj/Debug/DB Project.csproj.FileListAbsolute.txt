@@ -1,0 +1,14 @@
+F:\D\Uni\Third Year\Second Term\Database\phase 2 project\DB Project\DB Project\bin\Debug\DB Project.exe.config
+F:\D\Uni\Third Year\Second Term\Database\phase 2 project\DB Project\DB Project\bin\Debug\DB Project.exe
+F:\D\Uni\Third Year\Second Term\Database\phase 2 project\DB Project\DB Project\bin\Debug\DB Project.pdb
+F:\D\Uni\Third Year\Second Term\Database\phase 2 project\DB Project\DB Project\obj\Debug\DB_Project.Properties.Resources.resources
+F:\D\Uni\Third Year\Second Term\Database\phase 2 project\DB Project\DB Project\obj\Debug\DB Project.csproj.GenerateResource.Cache
+F:\D\Uni\Third Year\Second Term\Database\phase 2 project\DB Project\DB Project\obj\Debug\DB Project.exe
+F:\D\Uni\Third Year\Second Term\Database\phase 2 project\DB Project\DB Project\obj\Debug\DB Project.pdb
+F:\D\Uni\Third Year\Second Term\Database\phase 2 project\DB Project\DB Project\obj\Debug\DB_Project.CustLoginForm.resources
+F:\D\Uni\Third Year\Second Term\Database\phase 2 project\DB Project\DB Project\bin\Debug\Oracle.DataAccess.dll
+F:\D\Uni\Third Year\Second Term\Database\phase 2 project\DB Project\DB Project\obj\Debug\DB_Project.MainPage.resources
+F:\D\Uni\Third Year\Second Term\Database\phase 2 project\DB Project\DB Project\obj\Debug\DB Project.csprojResolveAssemblyReference.cache
+F:\D\Uni\Third Year\Second Term\Database\phase 2 project\DB Project\DB Project\obj\Debug\DB_Project.sysLoginForm.resources
+F:\D\Uni\Third Year\Second Term\Database\phase 2 project\DB Project\DB Project\obj\Debug\DB_Project.CustMenu.resources
+F:\D\Uni\Third Year\Second Term\Database\phase 2 project\DB Project\DB Project\obj\Debug\DB_Project.SysMenu.resources
