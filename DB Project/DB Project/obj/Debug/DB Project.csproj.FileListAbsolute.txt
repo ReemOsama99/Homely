@@ -12,3 +12,6 @@ F:\D\Uni\Third Year\Second Term\Database\phase 2 project\DB Project\DB Project\o
 F:\D\Uni\Third Year\Second Term\Database\phase 2 project\DB Project\DB Project\obj\Debug\DB_Project.sysLoginForm.resources
 F:\D\Uni\Third Year\Second Term\Database\phase 2 project\DB Project\DB Project\obj\Debug\DB_Project.CustMenu.resources
 F:\D\Uni\Third Year\Second Term\Database\phase 2 project\DB Project\DB Project\obj\Debug\DB_Project.SysMenu.resources
+D:\College\Junior\Second Semester\DB\Homely\DB Project\DB Project\bin\Debug\DB Project.exe.config
+D:\College\Junior\Second Semester\DB\Homely\DB Project\DB Project\obj\Debug\DB Project.exe
+D:\College\Junior\Second Semester\DB\Homely\DB Project\DB Project\obj\Debug\DB Project.pdb
