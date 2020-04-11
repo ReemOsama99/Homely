@@ -26,5 +26,16 @@ namespace DB_Project
         {
             this.Close();
         }
+
+
+        private void btn_custViewBranches_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btn_custSearch_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
