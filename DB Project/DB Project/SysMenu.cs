@@ -26,5 +26,17 @@ namespace DB_Project
         {
             this.Close();
         }
+
+        private void btn_sysAddItem_Click(object sender, EventArgs e)
+        {
+            AddCategory add = new AddCategory();
+            add.Show();
+        }
+
+        private void btn_UpdateCat_Click(object sender, EventArgs e)
+        {
+            UpdateItem updateitem = new UpdateItem();
+            updateitem.Show();
+        }
     }
 }

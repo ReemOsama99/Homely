@@ -75,7 +75,7 @@
             this.Controls.Add(this.lbl_title);
             this.Name = "MainPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "                 ";
             this.ResumeLayout(false);
 
         }

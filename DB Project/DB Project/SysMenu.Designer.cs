@@ -57,8 +57,9 @@
             this.btn_sysAddItem.Name = "btn_sysAddItem";
             this.btn_sysAddItem.Size = new System.Drawing.Size(263, 59);
             this.btn_sysAddItem.TabIndex = 4;
-            this.btn_sysAddItem.Text = "Add Item";
+            this.btn_sysAddItem.Text = "Add Category";
             this.btn_sysAddItem.UseVisualStyleBackColor = true;
+            this.btn_sysAddItem.Click += new System.EventHandler(this.btn_sysAddItem_Click);
             // 
             // btn_sysAddBranch
             // 
@@ -77,8 +78,9 @@
             this.btn_UpdateCat.Name = "btn_UpdateCat";
             this.btn_UpdateCat.Size = new System.Drawing.Size(263, 59);
             this.btn_UpdateCat.TabIndex = 6;
-            this.btn_UpdateCat.Text = "Update Category";
+            this.btn_UpdateCat.Text = "Update Item";
             this.btn_UpdateCat.UseVisualStyleBackColor = true;
+            this.btn_UpdateCat.Click += new System.EventHandler(this.btn_UpdateCat_Click);
             // 
             // btn_updateBranch
             // 
