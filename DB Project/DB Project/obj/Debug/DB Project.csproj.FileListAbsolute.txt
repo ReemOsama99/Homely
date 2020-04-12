@@ -47,3 +47,19 @@ F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.UpdateIt
 F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB Project.csproj.GenerateResource.Cache
 F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB Project.exe
 F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB Project.pdb
+C:\Users\Mubarak\Music\third year\DataBase\Homely-master\DB Project\DB Project\bin\Debug\DB Project.exe.config
+C:\Users\Mubarak\Music\third year\DataBase\Homely-master\DB Project\DB Project\obj\Debug\DB Project.exe
+C:\Users\Mubarak\Music\third year\DataBase\Homely-master\DB Project\DB Project\obj\Debug\DB Project.pdb
+C:\Users\Mubarak\Music\third year\DataBase\Homely-master\DB Project\DB Project\bin\Debug\DB Project.exe
+C:\Users\Mubarak\Music\third year\DataBase\Homely-master\DB Project\DB Project\bin\Debug\DB Project.pdb
+C:\Users\Mubarak\Music\third year\DataBase\Homely-master\DB Project\DB Project\obj\Debug\DB Project.csprojResolveAssemblyReference.cache
+C:\Users\Mubarak\Music\third year\DataBase\Homely-master\DB Project\DB Project\obj\Debug\DB_Project.CustBranchesForm.resources
+C:\Users\Mubarak\Music\third year\DataBase\Homely-master\DB Project\DB Project\obj\Debug\DB_Project.CustItemsForm.resources
+C:\Users\Mubarak\Music\third year\DataBase\Homely-master\DB Project\DB Project\obj\Debug\DB_Project.CustLoginForm.resources
+C:\Users\Mubarak\Music\third year\DataBase\Homely-master\DB Project\DB Project\obj\Debug\DB_Project.CustMenu.resources
+C:\Users\Mubarak\Music\third year\DataBase\Homely-master\DB Project\DB Project\obj\Debug\DB_Project.MainPage.resources
+C:\Users\Mubarak\Music\third year\DataBase\Homely-master\DB Project\DB Project\obj\Debug\DB_Project.Properties.Resources.resources
+C:\Users\Mubarak\Music\third year\DataBase\Homely-master\DB Project\DB Project\obj\Debug\DB_Project.sysBranchesForm.resources
+C:\Users\Mubarak\Music\third year\DataBase\Homely-master\DB Project\DB Project\obj\Debug\DB_Project.sysLoginForm.resources
+C:\Users\Mubarak\Music\third year\DataBase\Homely-master\DB Project\DB Project\obj\Debug\DB_Project.SysMenu.resources
+C:\Users\Mubarak\Music\third year\DataBase\Homely-master\DB Project\DB Project\obj\Debug\DB Project.csproj.GenerateResource.Cache
