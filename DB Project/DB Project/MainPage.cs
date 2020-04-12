@@ -27,14 +27,14 @@ namespace DB_Project
 
         private void btn_customer_Click(object sender, EventArgs e)
         {
-            CustLoginForm custLoginForm = new CustLoginForm();
-            custLoginForm.Show();
+            CustMenu custmenu = new CustMenu();
+            custmenu.Show();
         }
 
         private void btn_sysAdmin_Click(object sender, EventArgs e)
         {
-            sysLoginForm sysLoginForm = new sysLoginForm();
-            sysLoginForm.Show();
+            SysMenu sysmenu = new SysMenu();
+            sysmenu.Show();
         }
     }
 }

@@ -97,18 +97,19 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(577, 240);
+            this.button1.Location = new System.Drawing.Point(577, 229);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(263, 59);
             this.button1.TabIndex = 19;
             this.button1.Text = "View Suppliers";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btn_empInfo
             // 
             this.btn_empInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_empInfo.Location = new System.Drawing.Point(93, 344);
+            this.btn_empInfo.Location = new System.Drawing.Point(343, 341);
             this.btn_empInfo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_empInfo.Name = "btn_empInfo";
             this.btn_empInfo.Size = new System.Drawing.Size(263, 59);

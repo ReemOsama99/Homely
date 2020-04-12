@@ -27,6 +27,8 @@ namespace DB_Project
         OracleCommandBuilder builder;
         private void btn_viewAllBranches_Click(object sender, EventArgs e)
         {
+            //B. Using ODP.Net Disconnected mode (OracleDataAdapater and Dataset) to:
+              //3. Insert, update, delete using oracle command builder
             string conStr = "Data Source=orcl; User Id=scott; Password=tiger;";
             string commandStr = "select * from branch";
 

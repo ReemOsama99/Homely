@@ -14,6 +14,7 @@ namespace DB_Project
 {
     public partial class UpdateItem : Form
     {
+        
         OracleConnection conn;
         string ordb = "data source = orcl; user id =scott; password=tiger;";
         public UpdateItem()
@@ -23,6 +24,8 @@ namespace DB_Project
 
         private void UpdateItem_Load(object sender, EventArgs e)
         {
+            //A. Using ODP.Net connected mode (OracleConnection and OracleCommand) to:
+               //1. Select one or more rows from DB without where condition
             conn = new OracleConnection(ordb);
             conn.Open();
 
@@ -55,7 +58,9 @@ namespace DB_Project
         {
 
         }
-
+        //A. Using ODP.Net connected mode (OracleConnection and OracleCommand) to:
+           //3. Insert , Update and Delete rows (without using procedures)
+           //Update and delte
         private void btn_updateItems_Click(object sender, EventArgs e)
         {
             OracleCommand cmd = new OracleCommand();

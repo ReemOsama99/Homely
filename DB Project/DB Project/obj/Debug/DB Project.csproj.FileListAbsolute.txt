@@ -3,12 +3,10 @@ F:\D\Uni\Github repos\Homely\DB Project\DB Project\bin\Debug\DB Project.exe
 F:\D\Uni\Github repos\Homely\DB Project\DB Project\bin\Debug\DB Project.pdb
 F:\D\Uni\Github repos\Homely\DB Project\DB Project\bin\Debug\Oracle.DataAccess.dll
 F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.AddCategory.resources
-F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.CustLoginForm.resources
 F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.CustMenu.resources
 F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.MainPage.resources
 F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.Properties.Resources.resources
 F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.sysBranchesForm.resources
-F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.sysLoginForm.resources
 F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.SysMenu.resources
 F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.UpdateItem.resources
 F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.ViewSupp.resources
@@ -38,3 +36,4 @@ D:\College\Junior\Second Semester\DB\Project\DB Project\DB Project\obj\Debug\DB_
 D:\College\Junior\Second Semester\DB\Project\DB Project\DB Project\obj\Debug\DB Project.csproj.GenerateResource.Cache
 D:\College\Junior\Second Semester\DB\Project\DB Project\DB Project\bin\Debug\DB Project.exe
 D:\College\Junior\Second Semester\DB\Project\DB Project\DB Project\bin\Debug\DB Project.pdb
+F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.empInfo.resources

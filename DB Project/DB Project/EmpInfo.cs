@@ -33,6 +33,8 @@ namespace DB_Project
 
         private void empInfo_Load(object sender, EventArgs e)
         {
+            //A. Using ODP.Net connected mode (OracleConnection and OracleCommand) to:
+              //1. Select one or more rows from DB without where condition
             conn = new OracleConnection(ordb);
             conn.Open();
 
@@ -51,6 +53,8 @@ namespace DB_Project
 
         private void cbx_empId_SelectedIndexChanged(object sender, EventArgs e)
         {
+            //A. Using ODP.Net connected mode (OracleConnection and OracleCommand) to:
+               //2. Select one or more rows from DB using bind variables and command parameters
             OracleCommand c = new OracleCommand();
             c.Connection = conn;
             c.CommandText = "select emp_name, salary, email, b_id from Employee where eid=:id";
