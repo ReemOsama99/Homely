@@ -60,15 +60,15 @@ namespace DB_Project
         {
             OracleCommand cmd = new OracleCommand();
             cmd.Connection = conn;
-            cmd.CommandText = "update item set item_name=:name, quantityinstock=:quantity, price=:price, supp_name=:suppName, cat_id=:catID, rate=:rate where item_id=:id";
-            cmd.Parameters.Add("name", txt_itemName);
-            cmd.Parameters.Add("quantity", txt_quantityInStock);
-            cmd.Parameters.Add("price", txt_price);
-            cmd.Parameters.Add("suppName", txt_suppName);
-            cmd.Parameters.Add("catID", cbx_catID.Text);
-            //cmd.Parameters.Add("catID", cbx_catID.SelectedItem.ToString());
-            cmd.Parameters.Add("rate", textBox1);
-            cmd.Parameters.Add("id", cbx_itemId.Text);
+            cmd.CommandText = "update item set item_name=:name, quantityinstock=:quantity, price=:price, supp_name=:suppName, cat_id=:catID where item_id=:id";
+            cmd.Parameters.Add("name", txt_itemName.Text);
+            cmd.Parameters.Add("quantity", txt_quantityInStock.Text);
+            cmd.Parameters.Add("price", txt_price.Text);
+            cmd.Parameters.Add("suppName", txt_suppName.Text);
+            //cmd.Parameters.Add("catID", cbx_catID.Text);
+            cmd.Parameters.Add("catID", cbx_catID.SelectedItem.ToString());
+            //cmd.Parameters.Add("rate", textBox1);
+            cmd.Parameters.Add("id", cbx_itemId.SelectedItem.ToString());
             int rows = cmd.ExecuteNonQuery();
             if(rows!=-1)
             {
@@ -83,7 +83,7 @@ namespace DB_Project
 
         private void UpdateItem_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Application.Exit();
+            //Application.Exit();
         }
 
         private void btn_delItems_Click(object sender, EventArgs e)
@@ -96,7 +96,7 @@ namespace DB_Project
             if (rows != -1)
             {
                 MessageBox.Show("Item deleted");
-                //cbx_itemId.Items.RemoveAt(cbx_itemId.SelectedIndex);
+                cbx_itemId.Items.RemoveAt(cbx_itemId.SelectedIndex);
             }
         }
     }

@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
-using Oracle.DataAccess.Client;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Oracle.DataAccess.Client;
+using Oracle.DataAccess.Types;
 
 namespace DB_Project
 {
@@ -29,7 +30,7 @@ namespace DB_Project
             string conStr = "Data Source=orcl; User Id=scott; Password=tiger;";
             string commandStr = "select * from branch";
 
-            adapter = new OracleDataAdapter(conStr, commandStr);
+            adapter = new OracleDataAdapter(commandStr, conStr);
             ds = new DataSet();
             adapter.Fill(ds);
             dgv_sysBranches.DataSource = ds.Tables[0];
@@ -44,7 +45,7 @@ namespace DB_Project
 
         private void btn_Back_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
 
         private void dgv_sysBranches_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -54,7 +55,17 @@ namespace DB_Project
 
         private void sysBranchesForm_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Application.Exit();
+            //Application.Exit();
+        }
+
+        private void sysBranchesForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            
+        }
+
+        private void sysBranchesForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

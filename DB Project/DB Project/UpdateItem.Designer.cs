@@ -44,8 +44,6 @@
             this.lbl_suppName = new System.Windows.Forms.Label();
             this.lbl_itemQuantity = new System.Windows.Forms.Label();
             this.lbl_ItemName = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // cbx_itemId
@@ -201,31 +199,11 @@
             this.lbl_ItemName.TabIndex = 27;
             this.lbl_ItemName.Text = "Name";
             // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(633, 77);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(256, 38);
-            this.textBox1.TabIndex = 28;
-            // 
-            // label1
-            // 
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(650, 159);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(168, 35);
-            this.label1.TabIndex = 29;
-            this.label1.Text = "Rate";
-            // 
             // UpdateItem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(901, 518);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.lbl_ItemName);
             this.Controls.Add(this.lbl_itemQuantity);
             this.Controls.Add(this.lbl_suppName);
@@ -270,7 +248,5 @@
         private System.Windows.Forms.Label lbl_suppName;
         private System.Windows.Forms.Label lbl_itemQuantity;
         private System.Windows.Forms.Label lbl_ItemName;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
     }
 }
