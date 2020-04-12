@@ -44,7 +44,7 @@ namespace DB_Project
 
         private void btn_Back_Click(object sender, EventArgs e)
         {
-
+           
         }
 
         private void dgv_sysBranches_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -55,6 +55,11 @@ namespace DB_Project
         private void sysBranchesForm_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void sysBranchesForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

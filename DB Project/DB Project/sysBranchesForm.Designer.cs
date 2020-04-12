@@ -38,10 +38,10 @@
             // btn_viewAllBranches
             // 
             this.btn_viewAllBranches.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_viewAllBranches.Location = new System.Drawing.Point(30, 375);
+            this.btn_viewAllBranches.Location = new System.Drawing.Point(35, 462);
             this.btn_viewAllBranches.Margin = new System.Windows.Forms.Padding(2);
             this.btn_viewAllBranches.Name = "btn_viewAllBranches";
-            this.btn_viewAllBranches.Size = new System.Drawing.Size(203, 53);
+            this.btn_viewAllBranches.Size = new System.Drawing.Size(237, 65);
             this.btn_viewAllBranches.TabIndex = 15;
             this.btn_viewAllBranches.Text = "View Branches";
             this.btn_viewAllBranches.UseVisualStyleBackColor = true;
@@ -50,10 +50,10 @@
             // btn_saveChanges
             // 
             this.btn_saveChanges.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_saveChanges.Location = new System.Drawing.Point(248, 375);
+            this.btn_saveChanges.Location = new System.Drawing.Point(289, 462);
             this.btn_saveChanges.Margin = new System.Windows.Forms.Padding(2);
             this.btn_saveChanges.Name = "btn_saveChanges";
-            this.btn_saveChanges.Size = new System.Drawing.Size(203, 53);
+            this.btn_saveChanges.Size = new System.Drawing.Size(237, 65);
             this.btn_saveChanges.TabIndex = 16;
             this.btn_saveChanges.Text = "Save Changes";
             this.btn_saveChanges.UseVisualStyleBackColor = true;
@@ -62,19 +62,20 @@
             // dgv_sysBranches
             // 
             this.dgv_sysBranches.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_sysBranches.Location = new System.Drawing.Point(30, 27);
+            this.dgv_sysBranches.Location = new System.Drawing.Point(35, 33);
+            this.dgv_sysBranches.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dgv_sysBranches.Name = "dgv_sysBranches";
-            this.dgv_sysBranches.Size = new System.Drawing.Size(733, 308);
+            this.dgv_sysBranches.Size = new System.Drawing.Size(855, 379);
             this.dgv_sysBranches.TabIndex = 17;
             this.dgv_sysBranches.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_sysBranches_CellContentClick);
             // 
             // btn_Back
             // 
             this.btn_Back.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Back.Location = new System.Drawing.Point(482, 375);
+            this.btn_Back.Location = new System.Drawing.Point(562, 462);
             this.btn_Back.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Back.Name = "btn_Back";
-            this.btn_Back.Size = new System.Drawing.Size(203, 53);
+            this.btn_Back.Size = new System.Drawing.Size(237, 65);
             this.btn_Back.TabIndex = 18;
             this.btn_Back.Text = "Back";
             this.btn_Back.UseVisualStyleBackColor = true;
@@ -82,16 +83,19 @@
             // 
             // sysBranchesForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(933, 554);
             this.Controls.Add(this.btn_Back);
             this.Controls.Add(this.dgv_sysBranches);
             this.Controls.Add(this.btn_saveChanges);
             this.Controls.Add(this.btn_viewAllBranches);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "sysBranchesForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "sysBranchesForm";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.sysBranchesForm_FormClosed);
+            this.Load += new System.EventHandler(this.sysBranchesForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_sysBranches)).EndInit();
             this.ResumeLayout(false);
 

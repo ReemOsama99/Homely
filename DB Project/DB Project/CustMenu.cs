@@ -30,12 +30,19 @@ namespace DB_Project
 
         private void btn_custViewBranches_Click(object sender, EventArgs e)
         {
-            
+            CustBranchesForm viewingBranchesForm = new CustBranchesForm();
+            viewingBranchesForm.Show();
         }
 
         private void btn_custSearch_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btn_custviewItems_Click(object sender, EventArgs e)
+        {
+            CustItemsForm custItemsForm = new CustItemsForm();
+            custItemsForm.Show();
         }
     }
 }
