@@ -31,3 +31,19 @@ F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.SysMenu.
 F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB Project.csproj.GenerateResource.Cache
 F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.AddCategory.resources
 F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.UpdateItem.resources
+C:\Users\Mariem Ahmed\Desktop\3rd year 2nd semester\DataBase\Homely\DB Project\DB Project\bin\Debug\DB Project.exe.config
+C:\Users\Mariem Ahmed\Desktop\3rd year 2nd semester\DataBase\Homely\DB Project\DB Project\bin\Debug\DB Project.exe
+C:\Users\Mariem Ahmed\Desktop\3rd year 2nd semester\DataBase\Homely\DB Project\DB Project\bin\Debug\DB Project.pdb
+C:\Users\Mariem Ahmed\Desktop\3rd year 2nd semester\DataBase\Homely\DB Project\DB Project\obj\Debug\DB_Project.CustLoginForm.resources
+C:\Users\Mariem Ahmed\Desktop\3rd year 2nd semester\DataBase\Homely\DB Project\DB Project\obj\Debug\DB_Project.CustMenu.resources
+C:\Users\Mariem Ahmed\Desktop\3rd year 2nd semester\DataBase\Homely\DB Project\DB Project\obj\Debug\DB_Project.MainPage.resources
+C:\Users\Mariem Ahmed\Desktop\3rd year 2nd semester\DataBase\Homely\DB Project\DB Project\obj\Debug\DB_Project.Properties.Resources.resources
+C:\Users\Mariem Ahmed\Desktop\3rd year 2nd semester\DataBase\Homely\DB Project\DB Project\obj\Debug\DB_Project.sysLoginForm.resources
+C:\Users\Mariem Ahmed\Desktop\3rd year 2nd semester\DataBase\Homely\DB Project\DB Project\obj\Debug\DB_Project.SysMenu.resources
+C:\Users\Mariem Ahmed\Desktop\3rd year 2nd semester\DataBase\Homely\DB Project\DB Project\obj\Debug\DB Project.csproj.GenerateResource.cache
+C:\Users\Mariem Ahmed\Desktop\3rd year 2nd semester\DataBase\Homely\DB Project\DB Project\obj\Debug\DB Project.csproj.CoreCompileInputs.cache
+C:\Users\Mariem Ahmed\Desktop\3rd year 2nd semester\DataBase\Homely\DB Project\DB Project\obj\Debug\DB Project.csproj.CopyComplete
+C:\Users\Mariem Ahmed\Desktop\3rd year 2nd semester\DataBase\Homely\DB Project\DB Project\obj\Debug\DB Project.exe
+C:\Users\Mariem Ahmed\Desktop\3rd year 2nd semester\DataBase\Homely\DB Project\DB Project\obj\Debug\DB Project.pdb
+C:\Users\Mariem Ahmed\Desktop\3rd year 2nd semester\DataBase\Homely\DB Project\DB Project\obj\Debug\DB Project.csprojAssemblyReference.cache
+C:\Users\Mariem Ahmed\Desktop\3rd year 2nd semester\DataBase\Homely\DB Project\DB Project\obj\Debug\DB_Project.sysBranchesForm.resources

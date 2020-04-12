@@ -31,12 +31,19 @@ namespace DB_Project
         {
             AddCategory add = new AddCategory();
             add.Show();
+      
+        private void btn_sysManageBranches_Click(object sender, EventArgs e)
+        {
+            sysBranchesForm branchesForm = new sysBranchesForm();
+            branchesForm.Show();
+
         }
 
         private void btn_UpdateCat_Click(object sender, EventArgs e)
         {
             UpdateItem updateitem = new UpdateItem();
             updateitem.Show();
+
         }
     }
 }
