@@ -34,6 +34,7 @@
             this.btn_custMenuback = new System.Windows.Forms.Button();
             this.btn_sysManageBranches = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.btn_empInfo = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbl_custMenutitle
@@ -48,7 +49,7 @@
             // btn_sysAddItem
             // 
             this.btn_sysAddItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_sysAddItem.Location = new System.Drawing.Point(148, 170);
+            this.btn_sysAddItem.Location = new System.Drawing.Point(93, 134);
             this.btn_sysAddItem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_sysAddItem.Name = "btn_sysAddItem";
             this.btn_sysAddItem.Size = new System.Drawing.Size(263, 59);
@@ -60,7 +61,7 @@
             // btn_UpdateCat
             // 
             this.btn_UpdateCat.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_UpdateCat.Location = new System.Drawing.Point(148, 301);
+            this.btn_UpdateCat.Location = new System.Drawing.Point(93, 240);
             this.btn_UpdateCat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_UpdateCat.Name = "btn_UpdateCat";
             this.btn_UpdateCat.Size = new System.Drawing.Size(263, 59);
@@ -84,7 +85,7 @@
             // btn_sysManageBranches
             // 
             this.btn_sysManageBranches.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_sysManageBranches.Location = new System.Drawing.Point(577, 170);
+            this.btn_sysManageBranches.Location = new System.Drawing.Point(577, 134);
             this.btn_sysManageBranches.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_sysManageBranches.Name = "btn_sysManageBranches";
             this.btn_sysManageBranches.Size = new System.Drawing.Size(263, 59);
@@ -96,7 +97,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(577, 301);
+            this.button1.Location = new System.Drawing.Point(577, 240);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(263, 59);
@@ -104,11 +105,24 @@
             this.button1.Text = "View Suppliers";
             this.button1.UseVisualStyleBackColor = true;
             // 
+            // btn_empInfo
+            // 
+            this.btn_empInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_empInfo.Location = new System.Drawing.Point(93, 344);
+            this.btn_empInfo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_empInfo.Name = "btn_empInfo";
+            this.btn_empInfo.Size = new System.Drawing.Size(263, 59);
+            this.btn_empInfo.TabIndex = 20;
+            this.btn_empInfo.Text = "Employees Info";
+            this.btn_empInfo.UseVisualStyleBackColor = true;
+            this.btn_empInfo.Click += new System.EventHandler(this.btn_empInfo_Click);
+            // 
             // SysMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(901, 518);
+            this.Controls.Add(this.btn_empInfo);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btn_sysManageBranches);
             this.Controls.Add(this.btn_custMenuback);
@@ -131,5 +145,6 @@
         private System.Windows.Forms.Button btn_custMenuback;
         private System.Windows.Forms.Button btn_sysManageBranches;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_empInfo;
     }
 }

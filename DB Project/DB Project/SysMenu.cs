@@ -48,5 +48,11 @@ namespace DB_Project
             updateitem.Show();
 
         }
+
+        private void btn_empInfo_Click(object sender, EventArgs e)
+        {
+            empInfo emp = new empInfo();
+            emp.Show();
+        }
     }
 }

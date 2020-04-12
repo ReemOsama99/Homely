@@ -97,5 +97,9 @@ namespace DB_Project
                 cbx_itemId.Items.RemoveAt(cbx_itemId.SelectedIndex);
             }
         }
+
+        private void cbx_itemId_SelectedIndexChanged(object sender, EventArgs e)
+        {
+        }
     }
 }

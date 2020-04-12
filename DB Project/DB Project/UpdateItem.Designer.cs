@@ -55,6 +55,7 @@
             this.cbx_itemId.Name = "cbx_itemId";
             this.cbx_itemId.Size = new System.Drawing.Size(256, 37);
             this.cbx_itemId.TabIndex = 0;
+            this.cbx_itemId.SelectedIndexChanged += new System.EventHandler(this.cbx_itemId_SelectedIndexChanged);
             // 
             // txt_itemName
             // 

@@ -78,6 +78,12 @@
     <Compile Include="CustMenu.Designer.cs">
       <DependentUpon>CustMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="EmpInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmpInfo.Designer.cs">
+      <DependentUpon>EmpInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -130,6 +136,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CustMenu.resx">
       <DependentUpon>CustMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmpInfo.resx">
+      <DependentUpon>EmpInfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainPage.resx">
       <DependentUpon>MainPage.cs</DependentUpon>
