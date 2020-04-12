@@ -48,6 +48,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustBranchesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustBranchesForm.Designer.cs">
+      <DependentUpon>CustBranchesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustItemsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustItemsForm.Designer.cs">
+      <DependentUpon>CustItemsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="CustLoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +80,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sysBranchesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sysBranchesForm.Designer.cs">
+      <DependentUpon>sysBranchesForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="sysLoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +98,12 @@
     <Compile Include="SysMenu.Designer.cs">
       <DependentUpon>SysMenu.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="CustBranchesForm.resx">
+      <DependentUpon>CustBranchesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustItemsForm.resx">
+      <DependentUpon>CustItemsForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CustLoginForm.resx">
       <DependentUpon>CustLoginForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -98,6 +122,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="sysBranchesForm.resx">
+      <DependentUpon>sysBranchesForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="sysLoginForm.resx">
       <DependentUpon>sysLoginForm.cs</DependentUpon>
     </EmbeddedResource>

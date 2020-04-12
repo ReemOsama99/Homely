@@ -14,7 +14,6 @@ namespace DB_Project
         [STAThread]
         static void Main()
         {
-            ///////bgrb
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MainPage());

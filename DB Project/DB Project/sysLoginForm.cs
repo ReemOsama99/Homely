@@ -31,6 +31,7 @@ namespace DB_Project
         {
             //check if username and password are valid
             //open system admin functions form
+
             SysMenu sysmenu = new SysMenu();
             sysmenu.Show();
             
