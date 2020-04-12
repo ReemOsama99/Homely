@@ -37,3 +37,4 @@ D:\College\Junior\Second Semester\DB\Project\DB Project\DB Project\obj\Debug\DB 
 D:\College\Junior\Second Semester\DB\Project\DB Project\DB Project\bin\Debug\DB Project.exe
 D:\College\Junior\Second Semester\DB\Project\DB Project\DB Project\bin\Debug\DB Project.pdb
 F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.empInfo.resources
+D:\College\Junior\Second Semester\DB\Project\DB Project\DB Project\obj\Debug\DB_Project.ViewCategoryItems.resources
