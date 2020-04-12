@@ -31,6 +31,7 @@ C:\Users\Mariem Ahmed\Desktop\3rd year 2nd semester\DataBase\Homely\DB Project\D
 C:\Users\Mariem Ahmed\Desktop\3rd year 2nd semester\DataBase\Homely\DB Project\DB Project\obj\Debug\DB Project.pdb
 C:\Users\Mariem Ahmed\Desktop\3rd year 2nd semester\DataBase\Homely\DB Project\DB Project\obj\Debug\DB Project.csprojAssemblyReference.cache
 C:\Users\Mariem Ahmed\Desktop\3rd year 2nd semester\DataBase\Homely\DB Project\DB Project\obj\Debug\DB_Project.sysBranchesForm.resources
+<<<<<<< HEAD
 F:\D\Uni\Github repos\Homely\DB Project\DB Project\bin\Debug\DB Project.exe.config
 F:\D\Uni\Github repos\Homely\DB Project\DB Project\bin\Debug\DB Project.exe
 F:\D\Uni\Github repos\Homely\DB Project\DB Project\bin\Debug\DB Project.pdb
@@ -47,6 +48,7 @@ F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.UpdateIt
 F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB Project.csproj.GenerateResource.Cache
 F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB Project.exe
 F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB Project.pdb
+=======
 C:\Users\Mubarak\Music\third year\DataBase\Homely-master\DB Project\DB Project\bin\Debug\DB Project.exe.config
 C:\Users\Mubarak\Music\third year\DataBase\Homely-master\DB Project\DB Project\obj\Debug\DB Project.exe
 C:\Users\Mubarak\Music\third year\DataBase\Homely-master\DB Project\DB Project\obj\Debug\DB Project.pdb
@@ -63,3 +65,4 @@ C:\Users\Mubarak\Music\third year\DataBase\Homely-master\DB Project\DB Project\o
 C:\Users\Mubarak\Music\third year\DataBase\Homely-master\DB Project\DB Project\obj\Debug\DB_Project.sysLoginForm.resources
 C:\Users\Mubarak\Music\third year\DataBase\Homely-master\DB Project\DB Project\obj\Debug\DB_Project.SysMenu.resources
 C:\Users\Mubarak\Music\third year\DataBase\Homely-master\DB Project\DB Project\obj\Debug\DB Project.csproj.GenerateResource.Cache
+>>>>>>> c8df2731bc79875b985b5ceac9b70cd9f7e374b8
