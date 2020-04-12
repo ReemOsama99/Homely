@@ -54,10 +54,22 @@
     <Compile Include="AddCategory.Designer.cs">
       <DependentUpon>AddCategory.cs</DependentUpon>
     </Compile>
+    <Compile Include="CustBranchesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustBranchesForm.designer.cs">
+      <DependentUpon>CustBranchesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustItemsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustItemsForm.Designer.cs">
+      <DependentUpon>CustItemsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="CustLoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CustLoginForm.Designer.cs">
+    <Compile Include="CustLoginForm.designer.cs">
       <DependentUpon>CustLoginForm.cs</DependentUpon>
     </Compile>
     <Compile Include="CustMenu.cs">
@@ -106,6 +118,12 @@
     </Compile>
     <EmbeddedResource Include="AddCategory.resx">
       <DependentUpon>AddCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustBranchesForm.resx">
+      <DependentUpon>CustBranchesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustItemsForm.resx">
+      <DependentUpon>CustItemsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CustLoginForm.resx">
       <DependentUpon>CustLoginForm.cs</DependentUpon>

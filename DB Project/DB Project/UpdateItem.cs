@@ -65,9 +65,7 @@ namespace DB_Project
             cmd.Parameters.Add("quantity", txt_quantityInStock.Text);
             cmd.Parameters.Add("price", txt_price.Text);
             cmd.Parameters.Add("suppName", txt_suppName.Text);
-            //cmd.Parameters.Add("catID", cbx_catID.Text);
             cmd.Parameters.Add("catID", cbx_catID.SelectedItem.ToString());
-            //cmd.Parameters.Add("rate", textBox1);
             cmd.Parameters.Add("id", cbx_itemId.SelectedItem.ToString());
             int rows = cmd.ExecuteNonQuery();
             if(rows!=-1)

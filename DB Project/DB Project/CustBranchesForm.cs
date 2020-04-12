@@ -25,7 +25,7 @@ namespace DB_Project
             string conStr = "Data Source=orcl; User Id=scott; Password=tiger;";
             string commandStr = "select * from branch";
 
-            adapter = new OracleDataAdapter(conStr, commandStr);
+            adapter = new OracleDataAdapter(commandStr, conStr);
             ds = new DataSet();
             adapter.Fill(ds);
             DGV_AllBranches.DataSource = ds.Tables[0];
