@@ -72,6 +72,7 @@
             this.btn_UpdateCat.Text = "Update Item";
             this.btn_UpdateCat.UseVisualStyleBackColor = true;
             this.btn_UpdateCat.Click += new System.EventHandler(this.btn_UpdateCat_Click);
+<<<<<<< HEAD
             // 
             // btn_updateBranch
             // 
@@ -82,6 +83,8 @@
             this.btn_updateBranch.TabIndex = 7;
             this.btn_updateBranch.Text = "Update Branch";
             this.btn_updateBranch.UseVisualStyleBackColor = true;
+=======
+>>>>>>> f6f4981750b81a4d162c88c9d59570a4d070ac1b
             // 
             // btn_deleteEmp
             // 
