@@ -22,6 +22,8 @@ namespace DB_Project
         DataSet ds;
         private void ViewingBranchesForm_Load(object sender, EventArgs e)
         {
+            //B. Using ODP.Net Disconnected mode (OracleDataAdapater and Dataset) to:
+              //2. Select All rows from certain table
             string conStr = "Data Source=orcl; User Id=scott; Password=tiger;";
             string commandStr = "select * from branch";
 

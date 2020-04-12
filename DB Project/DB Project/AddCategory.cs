@@ -34,6 +34,9 @@ namespace DB_Project
 
         private void btn_AddCat_Click(object sender, EventArgs e)
         {
+            //A. Using ODP.Net connected mode (OracleConnection and OracleCommand) to:
+               //3. Insert , Update and Delete rows (without using procedures)
+              //insert
             OracleCommand cmd = new OracleCommand();
             cmd.Connection = conn;
             cmd.CommandText = "insert into Item_Category values (:id,:name)";

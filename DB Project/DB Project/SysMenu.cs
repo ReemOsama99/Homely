@@ -54,5 +54,11 @@ namespace DB_Project
             empInfo emp = new empInfo();
             emp.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ViewSupp supp = new ViewSupp();
+            supp.Show();
+        }
     }
 }

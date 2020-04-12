@@ -66,12 +66,6 @@
     <Compile Include="CustItemsForm.Designer.cs">
       <DependentUpon>CustItemsForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="CustLoginForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CustLoginForm.designer.cs">
-      <DependentUpon>CustLoginForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="CustMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,12 +91,6 @@
     </Compile>
     <Compile Include="sysBranchesForm.Designer.cs">
       <DependentUpon>sysBranchesForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="sysLoginForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="sysLoginForm.Designer.cs">
-      <DependentUpon>sysLoginForm.cs</DependentUpon>
     </Compile>
     <Compile Include="SysMenu.cs">
       <SubType>Form</SubType>
@@ -131,9 +119,6 @@
     <EmbeddedResource Include="CustItemsForm.resx">
       <DependentUpon>CustItemsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CustLoginForm.resx">
-      <DependentUpon>CustLoginForm.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="CustMenu.resx">
       <DependentUpon>CustMenu.cs</DependentUpon>
     </EmbeddedResource>
@@ -154,9 +139,6 @@
     </Compile>
     <EmbeddedResource Include="sysBranchesForm.resx">
       <DependentUpon>sysBranchesForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="sysLoginForm.resx">
-      <DependentUpon>sysLoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SysMenu.resx">
       <DependentUpon>SysMenu.cs</DependentUpon>

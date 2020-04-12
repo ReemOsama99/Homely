@@ -34,6 +34,9 @@ namespace DB_Project
             adapter.Fill(ds);
             cmb_Branches.DataSource = ds.Tables[0];
             cmb_Branches.DisplayMember = "city";*/
+
+            //A. Using ODP.Net connected mode (OracleConnection and OracleCommand) to:
+               //1. Select one or more rows from DB without where condition
             conn = new OracleConnection(ordb);
             conn.Open();
             OracleCommand c = new OracleCommand();
@@ -55,6 +58,8 @@ namespace DB_Project
 
         private void cmb_Branches_SelectedIndexChanged(object sender, EventArgs e)
         {
+            //B. Using ODP.Net Disconnected mode (OracleDataAdapater and Dataset) to:
+                //1. Select certain rows for a given value entered by the user on the form
             string conStr = "Data Source=orcl; User Id=scott; Password=tiger;";
             string commandStr = @"select itm.Item_ID, QUANTITYINSTOCK, PRICE, RATE, ITEM_NAME
                                 from ITEM itm, ARE_AVAILABLE_IN ari, branch b
