@@ -44,5 +44,11 @@ namespace DB_Project
             CustItemsForm custItemsForm = new CustItemsForm();
             custItemsForm.Show();
         }
+
+        private void btn_categItems_Click(object sender, EventArgs e)
+        {
+            ViewCategoryItems ctg = new ViewCategoryItems();
+            ctg.Show();
+        }
     }
 }

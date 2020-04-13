@@ -67,7 +67,7 @@ namespace DB_Project
             }
             catch
             {
-                MessageBox.Show("Invalid Informations");
+                MessageBox.Show("Invalid Information");
             }
             // clearing feilds
             txt_price.Clear();
