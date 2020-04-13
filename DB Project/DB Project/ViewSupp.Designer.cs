@@ -62,14 +62,14 @@
             this.lbl_ViewSuppNum.Name = "lbl_ViewSuppNum";
             this.lbl_ViewSuppNum.Size = new System.Drawing.Size(209, 42);
             this.lbl_ViewSuppNum.TabIndex = 22;
-            this.lbl_ViewSuppNum.Text = "Number";
+            this.lbl_ViewSuppNum.Text = "Number:";
             // 
             // lbl_viewSuppName
             // 
             this.lbl_viewSuppName.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_viewSuppName.Location = new System.Drawing.Point(79, 166);
             this.lbl_viewSuppName.Name = "lbl_viewSuppName";
-            this.lbl_viewSuppName.Size = new System.Drawing.Size(155, 42);
+            this.lbl_viewSuppName.Size = new System.Drawing.Size(116, 42);
             this.lbl_viewSuppName.TabIndex = 24;
             this.lbl_viewSuppName.Text = "Name";
             this.lbl_viewSuppName.Click += new System.EventHandler(this.lbl_viewSuppName_Click);

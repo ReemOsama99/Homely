@@ -1,3 +1,21 @@
+F:\D\Uni\Github repos\Homely\DB Project\DB Project\bin\Debug\DB Project.exe.config
+F:\D\Uni\Github repos\Homely\DB Project\DB Project\bin\Debug\DB Project.exe
+F:\D\Uni\Github repos\Homely\DB Project\DB Project\bin\Debug\DB Project.pdb
+F:\D\Uni\Github repos\Homely\DB Project\DB Project\bin\Debug\Oracle.DataAccess.dll
+F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.AddCategory.resources
+F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.CustMenu.resources
+F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.MainPage.resources
+F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.Properties.Resources.resources
+F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.sysBranchesForm.resources
+F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.SysMenu.resources
+F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.UpdateItem.resources
+F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.ViewSupp.resources
+F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB Project.csproj.GenerateResource.Cache
+F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB Project.exe
+F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB Project.pdb
+F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.CustBranchesForm.resources
+F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.CustItemsForm.resources
+F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB Project.csprojResolveAssemblyReference.cache
 D:\College\Junior\Second Semester\DB\Project\DB Project\DB Project\bin\Debug\DB Project.exe.config
 D:\College\Junior\Second Semester\DB\Project\DB Project\DB Project\obj\Debug\DB Project.exe
 D:\College\Junior\Second Semester\DB\Project\DB Project\DB Project\obj\Debug\DB Project.pdb
@@ -18,24 +36,27 @@ D:\College\Junior\Second Semester\DB\Project\DB Project\DB Project\obj\Debug\DB_
 D:\College\Junior\Second Semester\DB\Project\DB Project\DB Project\obj\Debug\DB Project.csproj.GenerateResource.Cache
 D:\College\Junior\Second Semester\DB\Project\DB Project\DB Project\bin\Debug\DB Project.exe
 D:\College\Junior\Second Semester\DB\Project\DB Project\DB Project\bin\Debug\DB Project.pdb
-D:\College\Junior\Second Semester\DB\Project\DB Project\DB Project\obj\Debug\DB_Project.ViewCategoryItems.resources
-F:\D\Uni\Github repos\Homely\DB Project\DB Project\bin\Debug\DB Project.exe.config
-F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB Project.exe
-F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB Project.pdb
-F:\D\Uni\Github repos\Homely\DB Project\DB Project\bin\Debug\DB Project.exe
-F:\D\Uni\Github repos\Homely\DB Project\DB Project\bin\Debug\DB Project.pdb
-F:\D\Uni\Github repos\Homely\DB Project\DB Project\bin\Debug\Oracle.DataAccess.dll
-F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB Project.csprojResolveAssemblyReference.cache
-F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.AddCategory.resources
-F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.CustBranchesForm.resources
-F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.CustItemsForm.resources
-F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.CustMenu.resources
 F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.empInfo.resources
-F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.MainPage.resources
-F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.Properties.Resources.resources
-F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.sysBranchesForm.resources
-F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.SysMenu.resources
-F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.UpdateItem.resources
-F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.ViewCategoryItems.resources
-F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.ViewSupp.resources
-F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB Project.csproj.GenerateResource.Cache
+E:\collage\Bio 3rd\term 2\DBMS\Homely-master\Homely-master\DB Project\DB Project\bin\Debug\DB Project.exe.config
+E:\collage\Bio 3rd\term 2\DBMS\Homely-master\Homely-master\DB Project\DB Project\obj\Debug\DB Project.exe
+E:\collage\Bio 3rd\term 2\DBMS\Homely-master\Homely-master\DB Project\DB Project\obj\Debug\DB Project.pdb
+E:\collage\Bio 3rd\term 2\DBMS\project\Homely-master\Homely-master\DB Project\DB Project\bin\Debug\DB Project.exe.config
+E:\collage\Bio 3rd\term 2\DBMS\project\Homely-master\Homely-master\DB Project\DB Project\obj\Debug\DB Project.exe
+E:\collage\Bio 3rd\term 2\DBMS\project\Homely-master\Homely-master\DB Project\DB Project\obj\Debug\DB Project.pdb
+E:\collage\Bio 3rd\term 2\DBMS\project\Homely-master\Homely-master\DB Project\DB Project\bin\Debug\DB Project.exe
+E:\collage\Bio 3rd\term 2\DBMS\project\Homely-master\Homely-master\DB Project\DB Project\bin\Debug\DB Project.pdb
+E:\collage\Bio 3rd\term 2\DBMS\project\Homely-master\Homely-master\DB Project\DB Project\obj\Debug\DB Project.csprojResolveAssemblyReference.cache
+E:\collage\Bio 3rd\term 2\DBMS\project\Homely-master\Homely-master\DB Project\DB Project\obj\Debug\DB_Project.AddCategory.resources
+E:\collage\Bio 3rd\term 2\DBMS\project\Homely-master\Homely-master\DB Project\DB Project\obj\Debug\DB_Project.CustBranchesForm.resources
+E:\collage\Bio 3rd\term 2\DBMS\project\Homely-master\Homely-master\DB Project\DB Project\obj\Debug\DB_Project.CustItemsForm.resources
+E:\collage\Bio 3rd\term 2\DBMS\project\Homely-master\Homely-master\DB Project\DB Project\obj\Debug\DB_Project.CustMenu.resources
+E:\collage\Bio 3rd\term 2\DBMS\project\Homely-master\Homely-master\DB Project\DB Project\obj\Debug\DB_Project.empInfo.resources
+E:\collage\Bio 3rd\term 2\DBMS\project\Homely-master\Homely-master\DB Project\DB Project\obj\Debug\DB_Project.MainPage.resources
+E:\collage\Bio 3rd\term 2\DBMS\project\Homely-master\Homely-master\DB Project\DB Project\obj\Debug\DB_Project.Properties.Resources.resources
+E:\collage\Bio 3rd\term 2\DBMS\project\Homely-master\Homely-master\DB Project\DB Project\obj\Debug\DB_Project.sysAddItem.resources
+E:\collage\Bio 3rd\term 2\DBMS\project\Homely-master\Homely-master\DB Project\DB Project\obj\Debug\DB_Project.sysBranchesForm.resources
+E:\collage\Bio 3rd\term 2\DBMS\project\Homely-master\Homely-master\DB Project\DB Project\obj\Debug\DB_Project.SysMenu.resources
+E:\collage\Bio 3rd\term 2\DBMS\project\Homely-master\Homely-master\DB Project\DB Project\obj\Debug\DB_Project.sysUpdateCat.resources
+E:\collage\Bio 3rd\term 2\DBMS\project\Homely-master\Homely-master\DB Project\DB Project\obj\Debug\DB_Project.UpdateItem.resources
+E:\collage\Bio 3rd\term 2\DBMS\project\Homely-master\Homely-master\DB Project\DB Project\obj\Debug\DB_Project.ViewSupp.resources
+E:\collage\Bio 3rd\term 2\DBMS\project\Homely-master\Homely-master\DB Project\DB Project\obj\Debug\DB Project.csproj.GenerateResource.Cache

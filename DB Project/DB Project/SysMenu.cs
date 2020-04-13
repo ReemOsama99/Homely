@@ -60,5 +60,17 @@ namespace DB_Project
             ViewSupp supp = new ViewSupp();
             supp.Show();
         }
+
+        private void btn_AddItem_Click(object sender, EventArgs e)
+        {
+            sysAddItem addItem = new sysAddItem();
+            addItem.Show();
+        }
+
+        private void btn_sysUpdateCat_Click(object sender, EventArgs e)
+        {
+            sysUpdateCat updateCat = new sysUpdateCat();
+            updateCat.Show();
+        }
     }
 }

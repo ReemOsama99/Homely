@@ -86,6 +86,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sysAddItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sysAddItem.Designer.cs">
+      <DependentUpon>sysAddItem.cs</DependentUpon>
+    </Compile>
     <Compile Include="sysBranchesForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,17 +104,17 @@
     <Compile Include="SysMenu.Designer.cs">
       <DependentUpon>SysMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="sysUpdateCat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sysUpdateCat.Designer.cs">
+      <DependentUpon>sysUpdateCat.cs</DependentUpon>
+    </Compile>
     <Compile Include="UpdateItem.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="UpdateItem.Designer.cs">
       <DependentUpon>UpdateItem.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ViewCategoryItems.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ViewCategoryItems.Designer.cs">
-      <DependentUpon>ViewCategoryItems.cs</DependentUpon>
     </Compile>
     <Compile Include="ViewSupp.cs">
       <SubType>Form</SubType>
@@ -143,17 +149,20 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="sysAddItem.resx">
+      <DependentUpon>sysAddItem.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="sysBranchesForm.resx">
       <DependentUpon>sysBranchesForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SysMenu.resx">
       <DependentUpon>SysMenu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="sysUpdateCat.resx">
+      <DependentUpon>sysUpdateCat.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UpdateItem.resx">
       <DependentUpon>UpdateItem.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ViewCategoryItems.resx">
-      <DependentUpon>ViewCategoryItems.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ViewSupp.resx">
       <DependentUpon>ViewSupp.cs</DependentUpon>

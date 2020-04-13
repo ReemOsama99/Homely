@@ -37,19 +37,15 @@
             // btn_custviewItems
             // 
             this.btn_custviewItems.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-
-            this.btn_custviewItems.Location = new System.Drawing.Point(301, 247);
-
             this.btn_custviewItems.Location = new System.Drawing.Point(331, 158);
-
             this.btn_custviewItems.Margin = new System.Windows.Forms.Padding(2);
             this.btn_custviewItems.Name = "btn_custviewItems";
             this.btn_custviewItems.Size = new System.Drawing.Size(295, 59);
             this.btn_custviewItems.TabIndex = 0;
-            this.btn_custviewItems.Text = "Branch Items";
+            this.btn_custviewItems.Text = "View Items";
             this.btn_custviewItems.UseVisualStyleBackColor = true;
             this.btn_custviewItems.Click += new System.EventHandler(this.btn_custviewItems_Click);
-
+            // 
             // lbl_custMenutitle
             // 
             this.lbl_custMenutitle.Font = new System.Drawing.Font("Book Antiqua", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -76,11 +72,7 @@
             // btn_custViewBranches
             // 
             this.btn_custViewBranches.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-
-            this.btn_custViewBranches.Location = new System.Drawing.Point(301, 333);
-
             this.btn_custViewBranches.Location = new System.Drawing.Point(331, 262);
-
             this.btn_custViewBranches.Margin = new System.Windows.Forms.Padding(2);
             this.btn_custViewBranches.Name = "btn_custViewBranches";
             this.btn_custViewBranches.Size = new System.Drawing.Size(295, 59);
