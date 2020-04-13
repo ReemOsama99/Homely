@@ -60,3 +60,6 @@ E:\collage\Bio 3rd\term 2\DBMS\project\Homely-master\Homely-master\DB Project\DB
 E:\collage\Bio 3rd\term 2\DBMS\project\Homely-master\Homely-master\DB Project\DB Project\obj\Debug\DB_Project.UpdateItem.resources
 E:\collage\Bio 3rd\term 2\DBMS\project\Homely-master\Homely-master\DB Project\DB Project\obj\Debug\DB_Project.ViewSupp.resources
 E:\collage\Bio 3rd\term 2\DBMS\project\Homely-master\Homely-master\DB Project\DB Project\obj\Debug\DB Project.csproj.GenerateResource.Cache
+C:\Users\dell\Documents\GitHub\Homely\DB Project\DB Project\bin\Debug\DB Project.exe.config
+C:\Users\dell\Documents\GitHub\Homely\DB Project\DB Project\obj\Debug\DB Project.exe
+C:\Users\dell\Documents\GitHub\Homely\DB Project\DB Project\obj\Debug\DB Project.pdb
