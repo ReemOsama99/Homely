@@ -43,7 +43,7 @@ namespace DB_Project
         private void cbx_SuppName_SelectedIndexChanged(object sender, EventArgs e)
         {
             //A. Using ODP.Net connected mode (OracleConnection and OracleCommand) to:
-               //4. Insert , Update and Delete rows (without using procedures)
+            //4. Insert , Update and Delete rows (without using procedures)
             OracleCommand c = new OracleCommand();
             c.Connection = conn;
             c.CommandText = "GetSuppInfo";
@@ -59,8 +59,6 @@ namespace DB_Project
             {
                 MessageBox.Show("no data");
             }
-            
-
         }
 
         private void btn_viewSuppBack_Click(object sender, EventArgs e)

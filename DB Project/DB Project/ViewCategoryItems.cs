@@ -24,6 +24,8 @@ namespace DB_Project
 
         private void cbx_categName_SelectedIndexChanged(object sender, EventArgs e)
         {
+            dgvCategItems.Rows.Clear();
+            dgvCategItems.Refresh();
             //A. Using ODP.Net connected mode (OracleConnection and OracleCommand) to:
             //2. Select one or more rows from DB using bind variables and command parameters
             OracleCommand c = new OracleCommand();
@@ -34,16 +36,19 @@ namespace DB_Project
             OracleDataReader dr = c.ExecuteReader();
             if (dr.Read())
             {
-                //txt_empName.Text = dr[0].ToString();
-                dr.Close();
                 //A. Using ODP.Net connected mode (OracleConnection and OracleCommand) to:
                 //5. Select multiple rows from DB using stored procedures.
                 c.CommandText = "GetCategItems";
                 c.CommandType = CommandType.StoredProcedure;
-                // ************* Procedure syntex ***********
-                // create or replace procedure GetCategItems 
-                //************************************************          
+                c.Parameters.Add("id", dr[0].ToString());
+                c.Parameters.Add("items", OracleDbType.RefCursor, ParameterDirection.Output);
+                dr = c.ExecuteReader();
+                while(dr.Read())
+                {
+                    dgvCategItems.Rows.Add(dr[0], dr[1], dr[2]);
+                }
             }
+            dr.Close();
         }
 
         private void ViewCategoryItems_Load(object sender, EventArgs e)

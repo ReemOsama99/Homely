@@ -31,8 +31,11 @@
             this.lbl_n = new System.Windows.Forms.Label();
             this.lbl1 = new System.Windows.Forms.Label();
             this.cbx_categName = new System.Windows.Forms.ComboBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.dgvCategItems = new System.Windows.Forms.DataGridView();
+            this.Item_Name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.price = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.rate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCategItems)).BeginInit();
             this.SuspendLayout();
             // 
             // lbl_n
@@ -64,28 +67,54 @@
             this.cbx_categName.TabIndex = 36;
             this.cbx_categName.SelectedIndexChanged += new System.EventHandler(this.cbx_categName_SelectedIndexChanged);
             // 
-            // dataGridView1
+            // dgvCategItems
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(65, 204);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(700, 302);
-            this.dataGridView1.TabIndex = 39;
+            this.dgvCategItems.AllowUserToAddRows = false;
+            this.dgvCategItems.AllowUserToDeleteRows = false;
+            this.dgvCategItems.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvCategItems.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Item_Name,
+            this.price,
+            this.rate});
+            this.dgvCategItems.Location = new System.Drawing.Point(236, 209);
+            this.dgvCategItems.Name = "dgvCategItems";
+            this.dgvCategItems.ReadOnly = true;
+            this.dgvCategItems.RowTemplate.Height = 24;
+            this.dgvCategItems.Size = new System.Drawing.Size(387, 325);
+            this.dgvCategItems.TabIndex = 39;
+            // 
+            // Item_Name
+            // 
+            this.Item_Name.HeaderText = "Item Name";
+            this.Item_Name.Name = "Item_Name";
+            this.Item_Name.ReadOnly = true;
+            // 
+            // price
+            // 
+            this.price.HeaderText = "Price";
+            this.price.Name = "price";
+            this.price.ReadOnly = true;
+            // 
+            // rate
+            // 
+            this.rate.HeaderText = "Rate";
+            this.rate.Name = "rate";
+            this.rate.ReadOnly = true;
             // 
             // ViewCategoryItems
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(901, 518);
-            this.Controls.Add(this.dataGridView1);
+            this.ClientSize = new System.Drawing.Size(901, 534);
+            this.Controls.Add(this.dgvCategItems);
             this.Controls.Add(this.lbl_n);
             this.Controls.Add(this.lbl1);
             this.Controls.Add(this.cbx_categName);
             this.Name = "ViewCategoryItems";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ViewCategoryItems";
             this.Load += new System.EventHandler(this.ViewCategoryItems_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCategItems)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -95,6 +124,9 @@
         private System.Windows.Forms.Label lbl_n;
         private System.Windows.Forms.Label lbl1;
         private System.Windows.Forms.ComboBox cbx_categName;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvCategItems;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Item_Name;
+        private System.Windows.Forms.DataGridViewTextBoxColumn price;
+        private System.Windows.Forms.DataGridViewTextBoxColumn rate;
     }
 }
