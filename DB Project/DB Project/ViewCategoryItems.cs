@@ -40,16 +40,17 @@ namespace DB_Project
                 //5. Select multiple rows from DB using stored procedures.
                 c.CommandText = "GetCategItems";
                 c.CommandType = CommandType.StoredProcedure;
-                c.Parameters.Add("id", dr[0].ToString());
+                c.Parameters.Add("id", dr.GetInt32(0));
                 c.Parameters.Add("items", OracleDbType.RefCursor, ParameterDirection.Output);
-                dr = c.ExecuteReader();
-                while(dr.Read())
+                OracleDataReader d = c.ExecuteReader();
+                while(d.Read())
                 {
-                    dgvCategItems.Rows.Add(dr[0], dr[1], dr[2]);
+                    dgvCategItems.Rows.Add(d[0], d[1], d[2]);
                 }
+                d.Close();
             }
             dr.Close();
-        }
+         }
 
         private void ViewCategoryItems_Load(object sender, EventArgs e)
         {
