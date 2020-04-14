@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CustItemsForm));
             this.cmb_Branches = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.DGV_AllItems = new System.Windows.Forms.DataGridView();
@@ -39,60 +40,69 @@
             // cmb_Branches
             // 
             this.cmb_Branches.FormattingEnabled = true;
-            this.cmb_Branches.Location = new System.Drawing.Point(407, 129);
+            this.cmb_Branches.Location = new System.Drawing.Point(323, 70);
+            this.cmb_Branches.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmb_Branches.Name = "cmb_Branches";
-            this.cmb_Branches.Size = new System.Drawing.Size(158, 24);
+            this.cmb_Branches.Size = new System.Drawing.Size(136, 21);
             this.cmb_Branches.TabIndex = 0;
             this.cmb_Branches.SelectedIndexChanged += new System.EventHandler(this.cmb_Branches_SelectedIndexChanged);
             // 
             // label1
             // 
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(225, 130);
+            this.label1.Location = new System.Drawing.Point(194, 70);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(144, 23);
+            this.label1.Size = new System.Drawing.Size(123, 19);
             this.label1.TabIndex = 1;
             this.label1.Text = "Select Branch";
             // 
             // DGV_AllItems
             // 
             this.DGV_AllItems.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DGV_AllItems.Location = new System.Drawing.Point(66, 203);
+            this.DGV_AllItems.Location = new System.Drawing.Point(73, 115);
+            this.DGV_AllItems.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.DGV_AllItems.Name = "DGV_AllItems";
             this.DGV_AllItems.RowTemplate.Height = 26;
-            this.DGV_AllItems.Size = new System.Drawing.Size(616, 223);
+            this.DGV_AllItems.Size = new System.Drawing.Size(528, 181);
             this.DGV_AllItems.TabIndex = 2;
             // 
             // label2
             // 
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Book Antiqua", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(270, 42);
+            this.label2.Location = new System.Drawing.Point(12, 9);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(295, 43);
+            this.label2.Size = new System.Drawing.Size(253, 35);
             this.label2.TabIndex = 3;
             this.label2.Text = "Avaliable Items";
             // 
             // btn_Back
             // 
+            this.btn_Back.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btn_Back.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Back.Location = new System.Drawing.Point(619, 470);
+            this.btn_Back.ForeColor = System.Drawing.Color.Yellow;
+            this.btn_Back.Location = new System.Drawing.Point(545, 372);
+            this.btn_Back.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_Back.Name = "btn_Back";
-            this.btn_Back.Size = new System.Drawing.Size(126, 36);
+            this.btn_Back.Size = new System.Drawing.Size(108, 38);
             this.btn_Back.TabIndex = 4;
             this.btn_Back.Text = "Back";
-            this.btn_Back.UseVisualStyleBackColor = true;
+            this.btn_Back.UseVisualStyleBackColor = false;
             this.btn_Back.Click += new System.EventHandler(this.button1_Click);
             // 
             // CustItemsForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(788, 518);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(675, 421);
             this.Controls.Add(this.btn_Back);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.DGV_AllItems);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cmb_Branches);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "CustItemsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CustItemsForm";

@@ -43,6 +43,7 @@ namespace DB_Project
         {
             builder = new OracleCommandBuilder(adapter);
             adapter.Update(ds.Tables[0]);
+            MessageBox.Show("Changes saved successfully.");
         }
 
         private void btn_Back_Click(object sender, EventArgs e)

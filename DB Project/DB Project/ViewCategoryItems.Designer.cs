@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ViewCategoryItems));
             this.lbl_n = new System.Windows.Forms.Label();
             this.lbl1 = new System.Windows.Forms.Label();
             this.cbx_categName = new System.Windows.Forms.ComboBox();
@@ -35,24 +36,29 @@
             this.Item_Name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.price = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.rate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btn_viewSuppBack = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCategItems)).BeginInit();
             this.SuspendLayout();
             // 
             // lbl_n
             // 
+            this.lbl_n.BackColor = System.Drawing.Color.Transparent;
             this.lbl_n.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_n.Location = new System.Drawing.Point(59, 127);
+            this.lbl_n.Location = new System.Drawing.Point(76, 82);
+            this.lbl_n.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_n.Name = "lbl_n";
-            this.lbl_n.Size = new System.Drawing.Size(278, 42);
+            this.lbl_n.Size = new System.Drawing.Size(208, 34);
             this.lbl_n.TabIndex = 38;
             this.lbl_n.Text = "Category Name";
             // 
             // lbl1
             // 
+            this.lbl1.BackColor = System.Drawing.Color.Transparent;
             this.lbl1.Font = new System.Drawing.Font("Book Antiqua", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl1.Location = new System.Drawing.Point(211, 40);
+            this.lbl1.Location = new System.Drawing.Point(73, 9);
+            this.lbl1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl1.Name = "lbl1";
-            this.lbl1.Size = new System.Drawing.Size(403, 62);
+            this.lbl1.Size = new System.Drawing.Size(302, 50);
             this.lbl1.TabIndex = 37;
             this.lbl1.Text = "Category Items";
             // 
@@ -60,10 +66,11 @@
             // 
             this.cbx_categName.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbx_categName.FormattingEnabled = true;
-            this.cbx_categName.ItemHeight = 29;
-            this.cbx_categName.Location = new System.Drawing.Point(509, 127);
+            this.cbx_categName.ItemHeight = 22;
+            this.cbx_categName.Location = new System.Drawing.Point(288, 86);
+            this.cbx_categName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cbx_categName.Name = "cbx_categName";
-            this.cbx_categName.Size = new System.Drawing.Size(256, 37);
+            this.cbx_categName.Size = new System.Drawing.Size(193, 30);
             this.cbx_categName.TabIndex = 36;
             this.cbx_categName.SelectedIndexChanged += new System.EventHandler(this.cbx_categName_SelectedIndexChanged);
             // 
@@ -76,11 +83,12 @@
             this.Item_Name,
             this.price,
             this.rate});
-            this.dgvCategItems.Location = new System.Drawing.Point(236, 209);
+            this.dgvCategItems.Location = new System.Drawing.Point(81, 147);
+            this.dgvCategItems.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvCategItems.Name = "dgvCategItems";
             this.dgvCategItems.ReadOnly = true;
             this.dgvCategItems.RowTemplate.Height = 24;
-            this.dgvCategItems.Size = new System.Drawing.Size(387, 325);
+            this.dgvCategItems.Size = new System.Drawing.Size(290, 264);
             this.dgvCategItems.TabIndex = 39;
             // 
             // Item_Name
@@ -101,15 +109,32 @@
             this.rate.Name = "rate";
             this.rate.ReadOnly = true;
             // 
+            // btn_viewSuppBack
+            // 
+            this.btn_viewSuppBack.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_viewSuppBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_viewSuppBack.ForeColor = System.Drawing.Color.Yellow;
+            this.btn_viewSuppBack.Location = new System.Drawing.Point(440, 369);
+            this.btn_viewSuppBack.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_viewSuppBack.Name = "btn_viewSuppBack";
+            this.btn_viewSuppBack.Size = new System.Drawing.Size(206, 42);
+            this.btn_viewSuppBack.TabIndex = 40;
+            this.btn_viewSuppBack.Text = "Back";
+            this.btn_viewSuppBack.UseVisualStyleBackColor = false;
+            this.btn_viewSuppBack.Click += new System.EventHandler(this.btn_viewSuppBack_Click);
+            // 
             // ViewCategoryItems
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(901, 534);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(676, 434);
+            this.Controls.Add(this.btn_viewSuppBack);
             this.Controls.Add(this.dgvCategItems);
             this.Controls.Add(this.lbl_n);
             this.Controls.Add(this.lbl1);
             this.Controls.Add(this.cbx_categName);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "ViewCategoryItems";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ViewCategoryItems";
@@ -128,5 +153,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Item_Name;
         private System.Windows.Forms.DataGridViewTextBoxColumn price;
         private System.Windows.Forms.DataGridViewTextBoxColumn rate;
+        private System.Windows.Forms.Button btn_viewSuppBack;
     }
 }

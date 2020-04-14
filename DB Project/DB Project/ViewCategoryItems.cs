@@ -70,5 +70,10 @@ namespace DB_Project
             }
             dr.Close();
         }
+
+        private void btn_viewSuppBack_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
