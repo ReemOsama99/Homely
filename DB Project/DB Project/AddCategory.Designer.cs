@@ -48,6 +48,7 @@
             // 
             // txt_addCatID
             // 
+            this.txt_addCatID.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_addCatID.Location = new System.Drawing.Point(322, 191);
             this.txt_addCatID.Multiline = true;
             this.txt_addCatID.Name = "txt_addCatID";
@@ -56,6 +57,7 @@
             // 
             // txt_addCatName
             // 
+            this.txt_addCatName.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_addCatName.Location = new System.Drawing.Point(322, 340);
             this.txt_addCatName.Multiline = true;
             this.txt_addCatName.Name = "txt_addCatName";

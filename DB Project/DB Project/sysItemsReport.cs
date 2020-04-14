@@ -17,7 +17,8 @@ namespace DB_Project
         {
             InitializeComponent();
         }
-
+          //C. Using crystal reports to create reports with:
+             //1. Grouped columns / Summarized columns/ Formulas / Labels to enhance design and readability
         private void sysItemsReport_Load(object sender, EventArgs e)
         {
             IR = new ItemsReport();

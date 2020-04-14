@@ -39,7 +39,17 @@ namespace DB_Project
             }
             drr.Close();
         }
-
+        //***************procedure syntax **********************
+        // create or replace PROCEDURE GetSuppInfo
+        //(suppName VARCHAR2, suppNumber out NUMBER)
+        //as
+        //begin
+        //select PHONE_NUMBER
+        //into suppNumber
+        //from SUPPLIER 
+        //where SUPP_NAME= suppName;
+        //end;
+        //******************************************************
         private void cbx_SuppName_SelectedIndexChanged(object sender, EventArgs e)
         {
             //A. Using ODP.Net connected mode (OracleConnection and OracleCommand) to:

@@ -72,15 +72,24 @@ namespace DB_Project
             cmd.Parameters.Add("suppName", txt_suppName.Text);
             cmd.Parameters.Add("catID", cbx_catID.SelectedItem.ToString());
             cmd.Parameters.Add("id", cbx_itemId.SelectedItem.ToString());
-            int rows = cmd.ExecuteNonQuery();
-            if(rows!=-1)
+            try
             {
-                MessageBox.Show("Item Modified", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                int rows = cmd.ExecuteNonQuery();
+                if (rows != -1)
+                {
+                    MessageBox.Show("Item Modified");
+                }
             }
-            txt_itemName.Text = "";
-            txt_price.Text = "";
-            txt_quantityInStock.Text = "";
-            txt_suppName.Text = "";
+            catch
+            {
+                MessageBox.Show("Invalid Modification", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            txt_itemName.Clear();
+            txt_price.Clear();
+            txt_quantityInStock.Clear();
+            txt_suppName.Clear();
+            cbx_catID.Text = "";
+            cbx_itemId.Text = "";
         }
 
         private void btn_IupdateIteemBack_Click(object sender, EventArgs e)
@@ -104,18 +113,19 @@ namespace DB_Project
                 int rows = cmd.ExecuteNonQuery();
                 if (rows != -1)
                 {
-                    MessageBox.Show("Item Deleted", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Item Deleted", "Success",MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
             catch
             {
                 MessageBox.Show("Invalid Deletion", "Error",MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            txt_itemName.Text = "";
-            txt_price.Text = "";
-            txt_quantityInStock.Text = "";
-            txt_suppName.Text = "";
-
+            txt_itemName.Clear();
+            txt_price.Clear();
+            txt_quantityInStock.Clear();
+            txt_suppName.Clear();
+            cbx_catID.Text = "";
+            cbx_itemId.Text = "";
         }
 
         private void cbx_itemId_SelectedIndexChanged(object sender, EventArgs e)

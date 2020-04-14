@@ -17,15 +17,17 @@ namespace DB_Project
         {
             InitializeComponent();
         }
-
+        //C. Using crystal reports to create reports with:
+        //3. Calling reports from C#
         private void BillReport_Load(object sender, EventArgs e)
         {
             br = new CustomerBill();
+            crystalReportViewer1.ReportSource = br;
         }
 
         private void btn_BillReport_Click(object sender, EventArgs e)
         {
-            crystalReportViewer1.ReportSource = br;
+            
         }
     }
 }

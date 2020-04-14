@@ -51,10 +51,10 @@ namespace DB_Project
             ctg.Show();
         }
 
-        private void btn_CustBillRep_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            BillReport billr = new BillReport();
-            billr.Show();
+            CategoriesReport categRepo = new CategoriesReport();
+            categRepo.Show();
         }
     }
 }

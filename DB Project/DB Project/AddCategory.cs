@@ -44,8 +44,8 @@ namespace DB_Project
             cmd.Parameters.Add("name", txt_addCatName.Text);
             try
             {
-                int rows = cmd.ExecuteNonQuery();
-                if (rows != -1)
+                int r = cmd.ExecuteNonQuery();
+                if (r != -1)
                 {
                     MessageBox.Show("Item Modified", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
@@ -54,8 +54,8 @@ namespace DB_Project
             {
                 MessageBox.Show("Existing ID", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            txt_addCatID.Text = "";
-            txt_addCatName.Text = "";
+            txt_addCatID.Clear();
+            txt_addCatName.Clear();
         }
     }
 }
