@@ -67,3 +67,4 @@ F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.sysAddIt
 F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.sysUpdateCat.resources
 F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.ViewCategoryItems.resources
 F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.BillReport.resources
+F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.sysItemsReport.resources

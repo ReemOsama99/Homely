@@ -97,6 +97,11 @@
     <Compile Include="EmpInfo.Designer.cs">
       <DependentUpon>EmpInfo.cs</DependentUpon>
     </Compile>
+    <Compile Include="ItemsReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ItemsReport.rpt</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,6 +121,10 @@
     </Compile>
     <Compile Include="sysBranchesForm.Designer.cs">
       <DependentUpon>sysBranchesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sysItemsReport.cs" />
+    <Compile Include="sysItemsReport.Designer.cs">
+      <DependentUpon>sysItemsReport.cs</DependentUpon>
     </Compile>
     <Compile Include="SysMenu.cs">
       <SubType>Form</SubType>
@@ -169,6 +178,10 @@
     <EmbeddedResource Include="EmpInfo.resx">
       <DependentUpon>EmpInfo.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ItemsReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ItemsReport.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainPage.resx">
       <DependentUpon>MainPage.cs</DependentUpon>
     </EmbeddedResource>
@@ -186,6 +199,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="sysBranchesForm.resx">
       <DependentUpon>sysBranchesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sysItemsReport.resx">
+      <DependentUpon>sysItemsReport.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SysMenu.resx">
       <DependentUpon>SysMenu.cs</DependentUpon>
