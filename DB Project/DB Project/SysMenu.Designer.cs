@@ -37,6 +37,7 @@
             this.btn_empInfo = new System.Windows.Forms.Button();
             this.btn_AddItem = new System.Windows.Forms.Button();
             this.btn_sysUpdateCat = new System.Windows.Forms.Button();
+            this.btn_ItemsRep = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbl_custMenutitle
@@ -53,7 +54,7 @@
             // 
             this.btn_sysAddItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_sysAddItem.Location = new System.Drawing.Point(70, 98);
-            this.btn_sysAddItem.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_sysAddItem.Margin = new System.Windows.Forms.Padding(2);
             this.btn_sysAddItem.Name = "btn_sysAddItem";
             this.btn_sysAddItem.Size = new System.Drawing.Size(197, 48);
             this.btn_sysAddItem.TabIndex = 4;
@@ -65,7 +66,7 @@
             // 
             this.btn_UpdateCat.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_UpdateCat.Location = new System.Drawing.Point(442, 165);
-            this.btn_UpdateCat.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_UpdateCat.Margin = new System.Windows.Forms.Padding(2);
             this.btn_UpdateCat.Name = "btn_UpdateCat";
             this.btn_UpdateCat.Size = new System.Drawing.Size(197, 48);
             this.btn_UpdateCat.TabIndex = 6;
@@ -77,7 +78,7 @@
             // 
             this.btn_custMenuback.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_custMenuback.Location = new System.Drawing.Point(273, 370);
-            this.btn_custMenuback.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_custMenuback.Margin = new System.Windows.Forms.Padding(2);
             this.btn_custMenuback.Name = "btn_custMenuback";
             this.btn_custMenuback.Size = new System.Drawing.Size(169, 41);
             this.btn_custMenuback.TabIndex = 17;
@@ -89,7 +90,7 @@
             // 
             this.btn_sysManageBranches.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_sysManageBranches.Location = new System.Drawing.Point(70, 241);
-            this.btn_sysManageBranches.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_sysManageBranches.Margin = new System.Windows.Forms.Padding(2);
             this.btn_sysManageBranches.Name = "btn_sysManageBranches";
             this.btn_sysManageBranches.Size = new System.Drawing.Size(197, 48);
             this.btn_sysManageBranches.TabIndex = 18;
@@ -101,7 +102,7 @@
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(442, 241);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(197, 48);
             this.button1.TabIndex = 19;
@@ -113,7 +114,7 @@
             // 
             this.btn_empInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_empInfo.Location = new System.Drawing.Point(258, 307);
-            this.btn_empInfo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_empInfo.Margin = new System.Windows.Forms.Padding(2);
             this.btn_empInfo.Name = "btn_empInfo";
             this.btn_empInfo.Size = new System.Drawing.Size(197, 48);
             this.btn_empInfo.TabIndex = 20;
@@ -145,11 +146,24 @@
             this.btn_sysUpdateCat.UseVisualStyleBackColor = true;
             this.btn_sysUpdateCat.Click += new System.EventHandler(this.btn_sysUpdateCat_Click);
             // 
+            // btn_ItemsRep
+            // 
+            this.btn_ItemsRep.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_ItemsRep.Location = new System.Drawing.Point(489, 315);
+            this.btn_ItemsRep.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_ItemsRep.Name = "btn_ItemsRep";
+            this.btn_ItemsRep.Size = new System.Drawing.Size(150, 40);
+            this.btn_ItemsRep.TabIndex = 23;
+            this.btn_ItemsRep.Text = "Items Report";
+            this.btn_ItemsRep.UseVisualStyleBackColor = true;
+            this.btn_ItemsRep.Click += new System.EventHandler(this.btn_ItemsRep_Click);
+            // 
             // SysMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(676, 421);
+            this.Controls.Add(this.btn_ItemsRep);
             this.Controls.Add(this.btn_sysUpdateCat);
             this.Controls.Add(this.btn_AddItem);
             this.Controls.Add(this.btn_empInfo);
@@ -159,7 +173,7 @@
             this.Controls.Add(this.btn_UpdateCat);
             this.Controls.Add(this.btn_sysAddItem);
             this.Controls.Add(this.lbl_custMenutitle);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "SysMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SysMenu";
@@ -178,5 +192,6 @@
         private System.Windows.Forms.Button btn_empInfo;
         private System.Windows.Forms.Button btn_AddItem;
         private System.Windows.Forms.Button btn_sysUpdateCat;
+        private System.Windows.Forms.Button btn_ItemsRep;
     }
 }
