@@ -63,11 +63,6 @@ E:\collage\Bio 3rd\term 2\DBMS\project\Homely-master\Homely-master\DB Project\DB
 C:\Users\dell\Documents\GitHub\Homely\DB Project\DB Project\bin\Debug\DB Project.exe.config
 C:\Users\dell\Documents\GitHub\Homely\DB Project\DB Project\obj\Debug\DB Project.exe
 C:\Users\dell\Documents\GitHub\Homely\DB Project\DB Project\obj\Debug\DB Project.pdb
-F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.sysAddItem.resources
-F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.sysUpdateCat.resources
-F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.ViewCategoryItems.resources
-F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.BillReport.resources
-F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.sysItemsReport.resources
 C:\Users\dell\Documents\GitHub\Homely\DB Project\DB Project\bin\Debug\DB Project.exe
 C:\Users\dell\Documents\GitHub\Homely\DB Project\DB Project\bin\Debug\DB Project.pdb
 C:\Users\dell\Documents\GitHub\Homely\DB Project\DB Project\obj\Debug\DB Project.csprojResolveAssemblyReference.cache
@@ -87,4 +82,50 @@ C:\Users\dell\Documents\GitHub\Homely\DB Project\DB Project\obj\Debug\DB_Project
 C:\Users\dell\Documents\GitHub\Homely\DB Project\DB Project\obj\Debug\DB_Project.ViewSupp.resources
 C:\Users\dell\Documents\GitHub\Homely\DB Project\DB Project\obj\Debug\DB Project.csproj.GenerateResource.Cache
 C:\Users\dell\Documents\GitHub\Homely\DB Project\DB Project\obj\Debug\DB_Project.sysItemsReport.resources
->>>>>>> f9841237d5754fc90a08866ae6773c4fa4e8ade6
+F:\D\Uni\Third Year\Second Term\Database\alaa\DB Project\DB Project\bin\Debug\DB Project.exe.config
+F:\D\Uni\Third Year\Second Term\Database\alaa\DB Project\DB Project\obj\Debug\DB Project.exe
+F:\D\Uni\Third Year\Second Term\Database\alaa\DB Project\DB Project\obj\Debug\DB Project.pdb
+F:\D\Uni\Third Year\Second Term\Database\alaa\DB Project\DB Project\bin\Debug\DB Project.exe
+F:\D\Uni\Third Year\Second Term\Database\alaa\DB Project\DB Project\bin\Debug\DB Project.pdb
+F:\D\Uni\Third Year\Second Term\Database\alaa\DB Project\DB Project\bin\Debug\Oracle.DataAccess.dll
+F:\D\Uni\Third Year\Second Term\Database\alaa\DB Project\DB Project\obj\Debug\DB Project.csprojResolveAssemblyReference.cache
+F:\D\Uni\Third Year\Second Term\Database\alaa\DB Project\DB Project\obj\Debug\DB_Project.AddCategory.resources
+F:\D\Uni\Third Year\Second Term\Database\alaa\DB Project\DB Project\obj\Debug\DB_Project.CustBranchesForm.resources
+F:\D\Uni\Third Year\Second Term\Database\alaa\DB Project\DB Project\obj\Debug\DB_Project.CustItemsForm.resources
+F:\D\Uni\Third Year\Second Term\Database\alaa\DB Project\DB Project\obj\Debug\DB_Project.CustMenu.resources
+F:\D\Uni\Third Year\Second Term\Database\alaa\DB Project\DB Project\obj\Debug\DB_Project.empInfo.resources
+F:\D\Uni\Third Year\Second Term\Database\alaa\DB Project\DB Project\obj\Debug\DB_Project.MainPage.resources
+F:\D\Uni\Third Year\Second Term\Database\alaa\DB Project\DB Project\obj\Debug\DB_Project.Properties.Resources.resources
+F:\D\Uni\Third Year\Second Term\Database\alaa\DB Project\DB Project\obj\Debug\DB_Project.sysAddItem.resources
+F:\D\Uni\Third Year\Second Term\Database\alaa\DB Project\DB Project\obj\Debug\DB_Project.sysBranchesForm.resources
+F:\D\Uni\Third Year\Second Term\Database\alaa\DB Project\DB Project\obj\Debug\DB_Project.sysItemsReport.resources
+F:\D\Uni\Third Year\Second Term\Database\alaa\DB Project\DB Project\obj\Debug\DB_Project.SysMenu.resources
+F:\D\Uni\Third Year\Second Term\Database\alaa\DB Project\DB Project\obj\Debug\DB_Project.sysUpdateCat.resources
+F:\D\Uni\Third Year\Second Term\Database\alaa\DB Project\DB Project\obj\Debug\DB_Project.UpdateItem.resources
+F:\D\Uni\Third Year\Second Term\Database\alaa\DB Project\DB Project\obj\Debug\DB_Project.ViewCategoryItems.resources
+F:\D\Uni\Third Year\Second Term\Database\alaa\DB Project\DB Project\obj\Debug\DB_Project.ViewSupp.resources
+F:\D\Uni\Third Year\Second Term\Database\alaa\DB Project\DB Project\obj\Debug\DB Project.csproj.GenerateResource.Cache
+F:\D\Uni\Third Year\Second Term\Database\alaa\DB Project\DB Project\obj\Debug\DB_Project.BillReport.resources
+F:\D\Uni\Third Year\Second Term\Database\alaa\DB Project\DB Project\obj\Debug\DB_Project.CategoriesReport.resources
+C:\Users\Mariem Ahmed\Downloads\DB Project\DB Project\obj\Debug\DB Project.csprojAssemblyReference.cache
+C:\Users\Mariem Ahmed\Downloads\DB Project\DB Project\obj\Debug\DB_Project.AddCategory.resources
+C:\Users\Mariem Ahmed\Downloads\DB Project\DB Project\obj\Debug\DB_Project.BillReport.resources
+C:\Users\Mariem Ahmed\Downloads\DB Project\DB Project\obj\Debug\DB_Project.CategoriesReport.resources
+C:\Users\Mariem Ahmed\Downloads\DB Project\DB Project\obj\Debug\DB_Project.CustBranchesForm.resources
+C:\Users\Mariem Ahmed\Downloads\DB Project\DB Project\obj\Debug\DB_Project.CustItemsForm.resources
+C:\Users\Mariem Ahmed\Downloads\DB Project\DB Project\obj\Debug\DB_Project.CustMenu.resources
+C:\Users\Mariem Ahmed\Downloads\DB Project\DB Project\obj\Debug\DB_Project.empInfo.resources
+C:\Users\Mariem Ahmed\Downloads\DB Project\DB Project\obj\Debug\DB_Project.MainPage.resources
+C:\Users\Mariem Ahmed\Downloads\DB Project\DB Project\obj\Debug\DB_Project.Properties.Resources.resources
+C:\Users\Mariem Ahmed\Downloads\DB Project\DB Project\obj\Debug\DB_Project.sysAddItem.resources
+C:\Users\Mariem Ahmed\Downloads\DB Project\DB Project\obj\Debug\DB_Project.sysBranchesForm.resources
+C:\Users\Mariem Ahmed\Downloads\DB Project\DB Project\obj\Debug\DB_Project.sysItemsReport.resources
+C:\Users\Mariem Ahmed\Downloads\DB Project\DB Project\obj\Debug\DB_Project.SysMenu.resources
+C:\Users\Mariem Ahmed\Downloads\DB Project\DB Project\obj\Debug\DB_Project.sysUpdateCat.resources
+C:\Users\Mariem Ahmed\Downloads\DB Project\DB Project\obj\Debug\DB_Project.UpdateItem.resources
+C:\Users\Mariem Ahmed\Downloads\DB Project\DB Project\obj\Debug\DB_Project.ViewCategoryItems.resources
+C:\Users\Mariem Ahmed\Downloads\DB Project\DB Project\obj\Debug\DB_Project.ViewSupp.resources
+C:\Users\Mariem Ahmed\Downloads\DB Project\DB Project\obj\Debug\DB Project.csproj.GenerateResource.cache
+C:\Users\Mariem Ahmed\Downloads\DB Project\DB Project\obj\Debug\DB Project.csproj.CoreCompileInputs.cache
+C:\Users\Mariem Ahmed\Downloads\DB Project\DB Project\obj\Debug\DB Project.exe
+C:\Users\Mariem Ahmed\Downloads\DB Project\DB Project\obj\Debug\DB Project.pdb
