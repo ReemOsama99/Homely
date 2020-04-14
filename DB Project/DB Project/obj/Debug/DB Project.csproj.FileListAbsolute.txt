@@ -68,3 +68,23 @@ F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.sysUpdat
 F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.ViewCategoryItems.resources
 F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.BillReport.resources
 F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.sysItemsReport.resources
+C:\Users\dell\Documents\GitHub\Homely\DB Project\DB Project\bin\Debug\DB Project.exe
+C:\Users\dell\Documents\GitHub\Homely\DB Project\DB Project\bin\Debug\DB Project.pdb
+C:\Users\dell\Documents\GitHub\Homely\DB Project\DB Project\obj\Debug\DB Project.csprojResolveAssemblyReference.cache
+C:\Users\dell\Documents\GitHub\Homely\DB Project\DB Project\obj\Debug\DB_Project.AddCategory.resources
+C:\Users\dell\Documents\GitHub\Homely\DB Project\DB Project\obj\Debug\DB_Project.CustBranchesForm.resources
+C:\Users\dell\Documents\GitHub\Homely\DB Project\DB Project\obj\Debug\DB_Project.CustItemsForm.resources
+C:\Users\dell\Documents\GitHub\Homely\DB Project\DB Project\obj\Debug\DB_Project.CustMenu.resources
+C:\Users\dell\Documents\GitHub\Homely\DB Project\DB Project\obj\Debug\DB_Project.empInfo.resources
+C:\Users\dell\Documents\GitHub\Homely\DB Project\DB Project\obj\Debug\DB_Project.MainPage.resources
+C:\Users\dell\Documents\GitHub\Homely\DB Project\DB Project\obj\Debug\DB_Project.Properties.Resources.resources
+C:\Users\dell\Documents\GitHub\Homely\DB Project\DB Project\obj\Debug\DB_Project.sysAddItem.resources
+C:\Users\dell\Documents\GitHub\Homely\DB Project\DB Project\obj\Debug\DB_Project.sysBranchesForm.resources
+C:\Users\dell\Documents\GitHub\Homely\DB Project\DB Project\obj\Debug\DB_Project.SysMenu.resources
+C:\Users\dell\Documents\GitHub\Homely\DB Project\DB Project\obj\Debug\DB_Project.sysUpdateCat.resources
+C:\Users\dell\Documents\GitHub\Homely\DB Project\DB Project\obj\Debug\DB_Project.UpdateItem.resources
+C:\Users\dell\Documents\GitHub\Homely\DB Project\DB Project\obj\Debug\DB_Project.ViewCategoryItems.resources
+C:\Users\dell\Documents\GitHub\Homely\DB Project\DB Project\obj\Debug\DB_Project.ViewSupp.resources
+C:\Users\dell\Documents\GitHub\Homely\DB Project\DB Project\obj\Debug\DB Project.csproj.GenerateResource.Cache
+C:\Users\dell\Documents\GitHub\Homely\DB Project\DB Project\obj\Debug\DB_Project.sysItemsReport.resources
+>>>>>>> f9841237d5754fc90a08866ae6773c4fa4e8ade6
