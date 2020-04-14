@@ -72,5 +72,13 @@ namespace DB_Project
             sysUpdateCat updateCat = new sysUpdateCat();
             updateCat.Show();
         }
+
+        private void btn_ItemsRep_Click(object sender, EventArgs e)
+        {
+
+            sysItemsReport IR = new sysItemsReport();
+            IR.Show();
+
+        }
     }
 }
