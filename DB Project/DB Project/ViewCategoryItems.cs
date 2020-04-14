@@ -40,7 +40,7 @@ namespace DB_Project
                 //5. Select multiple rows from DB using stored procedures.
                 c.CommandText = "GetCategItems";
                 c.CommandType = CommandType.StoredProcedure;
-                c.Parameters.Add("id", dr.GetInt32(0));
+                c.Parameters.Add("id", Convert.ToInt32(dr[0].ToString()));
                 c.Parameters.Add("items", OracleDbType.RefCursor, ParameterDirection.Output);
                 OracleDataReader d = c.ExecuteReader();
                 while(d.Read())

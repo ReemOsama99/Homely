@@ -33,12 +33,13 @@
             this.btn_custMenuback = new System.Windows.Forms.Button();
             this.btn_custViewBranches = new System.Windows.Forms.Button();
             this.btn_categItems = new System.Windows.Forms.Button();
+            this.btn_CustBillRep = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_custviewItems
             // 
             this.btn_custviewItems.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_custviewItems.Location = new System.Drawing.Point(331, 233);
+            this.btn_custviewItems.Location = new System.Drawing.Point(566, 159);
             this.btn_custviewItems.Margin = new System.Windows.Forms.Padding(2);
             this.btn_custviewItems.Name = "btn_custviewItems";
             this.btn_custviewItems.Size = new System.Drawing.Size(295, 59);
@@ -73,7 +74,7 @@
             // btn_custViewBranches
             // 
             this.btn_custViewBranches.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_custViewBranches.Location = new System.Drawing.Point(331, 326);
+            this.btn_custViewBranches.Location = new System.Drawing.Point(128, 289);
             this.btn_custViewBranches.Margin = new System.Windows.Forms.Padding(2);
             this.btn_custViewBranches.Name = "btn_custViewBranches";
             this.btn_custViewBranches.Size = new System.Drawing.Size(295, 59);
@@ -85,7 +86,7 @@
             // btn_categItems
             // 
             this.btn_categItems.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_categItems.Location = new System.Drawing.Point(331, 142);
+            this.btn_categItems.Location = new System.Drawing.Point(128, 159);
             this.btn_categItems.Margin = new System.Windows.Forms.Padding(2);
             this.btn_categItems.Name = "btn_categItems";
             this.btn_categItems.Size = new System.Drawing.Size(295, 59);
@@ -94,11 +95,24 @@
             this.btn_categItems.UseVisualStyleBackColor = true;
             this.btn_categItems.Click += new System.EventHandler(this.btn_categItems_Click);
             // 
+            // btn_CustBillRep
+            // 
+            this.btn_CustBillRep.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_CustBillRep.Location = new System.Drawing.Point(566, 289);
+            this.btn_CustBillRep.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_CustBillRep.Name = "btn_CustBillRep";
+            this.btn_CustBillRep.Size = new System.Drawing.Size(295, 59);
+            this.btn_CustBillRep.TabIndex = 20;
+            this.btn_CustBillRep.Text = "Bill Report";
+            this.btn_CustBillRep.UseVisualStyleBackColor = true;
+            this.btn_CustBillRep.Click += new System.EventHandler(this.btn_CustBillRep_Click);
+            // 
             // CustMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(902, 518);
+            this.Controls.Add(this.btn_CustBillRep);
             this.Controls.Add(this.btn_categItems);
             this.Controls.Add(this.btn_custViewBranches);
             this.Controls.Add(this.btn_custMenuback);
@@ -119,5 +133,6 @@
         private System.Windows.Forms.Button btn_custMenuback;
         private System.Windows.Forms.Button btn_custViewBranches;
         private System.Windows.Forms.Button btn_categItems;
+        private System.Windows.Forms.Button btn_CustBillRep;
     }
 }

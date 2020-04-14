@@ -42,11 +42,20 @@ namespace DB_Project
             cmd.CommandText = "insert into Item_Category values (:id,:name)";
             cmd.Parameters.Add("id", txt_addCatID.Text);
             cmd.Parameters.Add("name", txt_addCatName.Text);
-            int rows = cmd.ExecuteNonQuery();
-            if (rows != -1)
+            try
             {
-                MessageBox.Show("New Category is added");
+                int rows = cmd.ExecuteNonQuery();
+                if (rows != -1)
+                {
+                    MessageBox.Show("Item Modified", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
             }
+            catch
+            {
+                MessageBox.Show("Existing ID", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            txt_addCatID.Text = "";
+            txt_addCatName.Text = "";
         }
     }
 }

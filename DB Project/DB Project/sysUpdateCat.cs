@@ -59,14 +59,14 @@ namespace DB_Project
             {
 
                 int r = cmd.ExecuteNonQuery();
-                //if ( r != -1)
+                if ( r != -1)
                 {
-                    MessageBox.Show("Category Modified");
+                    MessageBox.Show("Category Modified", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
             catch
             {
-                MessageBox.Show("Invalid Modification");
+                MessageBox.Show("Invalid Modification","Error",MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             // clearing feilds
             cbx_catID.Text = "";
@@ -126,15 +126,15 @@ namespace DB_Project
             try
             {
                 int  r= cmd.ExecuteNonQuery();
-                //if ( r != -1)
+                if ( r != -1)
                 {
-                    MessageBox.Show("Category Deleted");
+                    MessageBox.Show("Category Deleted", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     cbx_catID.Items.RemoveAt(cbx_catID.SelectedIndex);
                 }
             }
             catch
             {
-                MessageBox.Show("Invalid Deletion");
+                MessageBox.Show("Invalid Deletion","Error",MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
             // clearing feilds

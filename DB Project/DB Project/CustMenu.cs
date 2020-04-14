@@ -50,5 +50,11 @@ namespace DB_Project
             ViewCategoryItems ctg = new ViewCategoryItems();
             ctg.Show();
         }
+
+        private void btn_CustBillRep_Click(object sender, EventArgs e)
+        {
+            BillReport billr = new BillReport();
+            billr.Show();
+        }
     }
 }

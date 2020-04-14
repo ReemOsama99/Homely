@@ -75,8 +75,12 @@ namespace DB_Project
             int rows = cmd.ExecuteNonQuery();
             if(rows!=-1)
             {
-                MessageBox.Show("Item Modified");
+                MessageBox.Show("Item Modified", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+            txt_itemName.Text = "";
+            txt_price.Text = "";
+            txt_quantityInStock.Text = "";
+            txt_suppName.Text = "";
         }
 
         private void btn_IupdateIteemBack_Click(object sender, EventArgs e)
@@ -95,12 +99,23 @@ namespace DB_Project
             cmd.Connection = conn;
             cmd.CommandText = "Delete from item where item_id=:id";
             cmd.Parameters.Add("id", cbx_itemId.SelectedItem.ToString());
-            int rows = cmd.ExecuteNonQuery();
-            if (rows != -1)
+            try
             {
-                MessageBox.Show("Item deleted");
-                cbx_itemId.Items.RemoveAt(cbx_itemId.SelectedIndex);
+                int rows = cmd.ExecuteNonQuery();
+                if (rows != -1)
+                {
+                    MessageBox.Show("Item Deleted", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
             }
+            catch
+            {
+                MessageBox.Show("Invalid Deletion", "Error",MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            txt_itemName.Text = "";
+            txt_price.Text = "";
+            txt_quantityInStock.Text = "";
+            txt_suppName.Text = "";
+
         }
 
         private void cbx_itemId_SelectedIndexChanged(object sender, EventArgs e)

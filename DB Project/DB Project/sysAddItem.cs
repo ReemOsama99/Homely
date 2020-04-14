@@ -59,15 +59,15 @@ namespace DB_Project
             {
 
                 int r = cmd.ExecuteNonQuery();
-                //if ( r != -1)
+                if ( r != -1)
                 {
-                    MessageBox.Show("New Item is added");
+                    MessageBox.Show("New Item is added", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
               
             }
             catch
             {
-                MessageBox.Show("Invalid Information");
+                MessageBox.Show("Invalid Information", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             // clearing feilds
             txt_price.Clear();
