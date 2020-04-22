@@ -69,7 +69,7 @@ namespace DB_Project
             {
                 MessageBox.Show("Invalid Information", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            // clearing feilds
+            // clearing fields
             txt_price.Clear();
             txt_itemID.Clear();
             txt_itemName.Clear();
@@ -109,6 +109,11 @@ namespace DB_Project
 
 
 
+        }
+
+        private void sysAddItem_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            conn.Dispose();
         }
     }
 }

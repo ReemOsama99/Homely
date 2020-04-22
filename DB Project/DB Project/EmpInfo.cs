@@ -70,5 +70,10 @@ namespace DB_Project
             }
             dr.Close();
         }
+
+        private void empInfo_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            conn.Dispose();
+        }
     }
 }

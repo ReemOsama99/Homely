@@ -142,5 +142,10 @@ namespace DB_Project
        
 
         }
+
+        private void sysUpdateCat_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            conn.Dispose();
+        }
     }
 }

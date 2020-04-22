@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CategoriesReport));
             this.btn_catRepo = new System.Windows.Forms.Button();
             this.cbx_CatNmaeRepo = new System.Windows.Forms.ComboBox();
             this.lbl_CatIdRepo = new System.Windows.Forms.Label();
@@ -38,13 +39,15 @@
             // 
             // btn_catRepo
             // 
+            this.btn_catRepo.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btn_catRepo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_catRepo.ForeColor = System.Drawing.Color.Yellow;
             this.btn_catRepo.Location = new System.Drawing.Point(1048, 17);
             this.btn_catRepo.Name = "btn_catRepo";
             this.btn_catRepo.Size = new System.Drawing.Size(133, 41);
             this.btn_catRepo.TabIndex = 1;
             this.btn_catRepo.Text = "Generate";
-            this.btn_catRepo.UseVisualStyleBackColor = true;
+            this.btn_catRepo.UseVisualStyleBackColor = false;
             this.btn_catRepo.Click += new System.EventHandler(this.btn_catRepo_Click);
             // 
             // cbx_CatNmaeRepo
@@ -59,6 +62,7 @@
             // 
             // lbl_CatIdRepo
             // 
+            this.lbl_CatIdRepo.BackColor = System.Drawing.Color.Transparent;
             this.lbl_CatIdRepo.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_CatIdRepo.Location = new System.Drawing.Point(24, 19);
             this.lbl_CatIdRepo.Name = "lbl_CatIdRepo";
@@ -78,6 +82,7 @@
             // 
             // lbl_maxPriceRepo
             // 
+            this.lbl_maxPriceRepo.BackColor = System.Drawing.Color.Transparent;
             this.lbl_maxPriceRepo.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_maxPriceRepo.Location = new System.Drawing.Point(559, 19);
             this.lbl_maxPriceRepo.Name = "lbl_maxPriceRepo";
@@ -98,6 +103,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1208, 804);
             this.Controls.Add(this.txt_maxPriceRepo);
             this.Controls.Add(this.lbl_maxPriceRepo);

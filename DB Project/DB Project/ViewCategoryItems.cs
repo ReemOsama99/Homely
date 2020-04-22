@@ -26,7 +26,7 @@ namespace DB_Project
             dgvCategItems.Rows.Clear();
             dgvCategItems.Refresh();
             //A. Using ODP.Net connected mode (OracleConnection and OracleCommand) to:
-            //2. Select one or more rows from DB using bind variables and command parameters
+            //5. Select multiple rows from DB using stored procedures.
             OracleCommand c = new OracleCommand();
             c.Connection = conn;
             c.CommandText = "select Cat_id from item_category where cat_name=:categName";
@@ -74,6 +74,11 @@ namespace DB_Project
         private void btn_viewSuppBack_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void ViewCategoryItems_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            conn.Dispose();
         }
     }
 }

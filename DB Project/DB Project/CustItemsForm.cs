@@ -72,5 +72,10 @@ namespace DB_Project
             adapter.Fill(ds);
             DGV_AllItems.DataSource = ds.Tables[0];
         }
+
+        private void CustItemsForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            conn.Dispose();
+        }
     }
 }

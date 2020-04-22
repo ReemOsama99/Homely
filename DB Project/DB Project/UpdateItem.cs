@@ -52,6 +52,19 @@ namespace DB_Project
                 cbx_catID.Items.Add(drr[0]);
             }
             drr.Close();
+
+
+            OracleCommand com = new OracleCommand();
+            com.Connection = conn;
+            com.CommandText = "select SUPP_NAME from SUPPLIER";
+            com.CommandType = CommandType.Text;
+
+            OracleDataReader data = com.ExecuteReader();
+            while (data.Read())
+            {
+                cbx_ItemSupp.Items.Add(data[0]);
+            }
+            data.Close();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -60,7 +73,7 @@ namespace DB_Project
         }
         //A. Using ODP.Net connected mode (OracleConnection and OracleCommand) to:
            //3. Insert , Update and Delete rows (without using procedures)
-           //Update and delte
+           //Update and delete
         private void btn_updateItems_Click(object sender, EventArgs e)
         {
             OracleCommand cmd = new OracleCommand();
@@ -69,7 +82,7 @@ namespace DB_Project
             cmd.Parameters.Add("name", txt_itemName.Text);
             cmd.Parameters.Add("quantity", txt_quantityInStock.Text);
             cmd.Parameters.Add("price", txt_price.Text);
-            cmd.Parameters.Add("suppName", txt_suppName.Text);
+            cmd.Parameters.Add("suppName", cbx_ItemSupp.SelectedItem.ToString());
             cmd.Parameters.Add("catID", cbx_catID.SelectedItem.ToString());
             cmd.Parameters.Add("id", cbx_itemId.SelectedItem.ToString());
             try
@@ -77,7 +90,7 @@ namespace DB_Project
                 int rows = cmd.ExecuteNonQuery();
                 if (rows != -1)
                 {
-                    MessageBox.Show("Item Modified");
+                    MessageBox.Show("Item Modified", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
             catch
@@ -87,7 +100,7 @@ namespace DB_Project
             txt_itemName.Clear();
             txt_price.Clear();
             txt_quantityInStock.Clear();
-            txt_suppName.Clear();
+            cbx_ItemSupp.Text = "";
             cbx_catID.Text = "";
             cbx_itemId.Text = "";
         }
@@ -123,13 +136,18 @@ namespace DB_Project
             txt_itemName.Clear();
             txt_price.Clear();
             txt_quantityInStock.Clear();
-            txt_suppName.Clear();
+            cbx_ItemSupp.Text = "";
             cbx_catID.Text = "";
             cbx_itemId.Text = "";
         }
 
         private void cbx_itemId_SelectedIndexChanged(object sender, EventArgs e)
         {
+        }
+
+        private void UpdateItem_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            conn.Dispose();
         }
     }
 }

@@ -47,10 +47,9 @@
             // 
             this.lbl2.BackColor = System.Drawing.Color.Transparent;
             this.lbl2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl2.Location = new System.Drawing.Point(121, 151);
-            this.lbl2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl2.Location = new System.Drawing.Point(161, 186);
             this.lbl2.Name = "lbl2";
-            this.lbl2.Size = new System.Drawing.Size(126, 28);
+            this.lbl2.Size = new System.Drawing.Size(168, 34);
             this.lbl2.TabIndex = 39;
             this.lbl2.Text = "Name";
             // 
@@ -58,10 +57,9 @@
             // 
             this.lbl3.BackColor = System.Drawing.Color.Transparent;
             this.lbl3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl3.Location = new System.Drawing.Point(121, 199);
-            this.lbl3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl3.Location = new System.Drawing.Point(161, 245);
             this.lbl3.Name = "lbl3";
-            this.lbl3.Size = new System.Drawing.Size(126, 28);
+            this.lbl3.Size = new System.Drawing.Size(168, 34);
             this.lbl3.TabIndex = 38;
             this.lbl3.Text = "Salary";
             // 
@@ -69,10 +67,9 @@
             // 
             this.lbl5.BackColor = System.Drawing.Color.Transparent;
             this.lbl5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl5.Location = new System.Drawing.Point(121, 289);
-            this.lbl5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl5.Location = new System.Drawing.Point(161, 356);
             this.lbl5.Name = "lbl5";
-            this.lbl5.Size = new System.Drawing.Size(126, 28);
+            this.lbl5.Size = new System.Drawing.Size(168, 34);
             this.lbl5.TabIndex = 37;
             this.lbl5.Text = "Branch ID";
             this.lbl5.Click += new System.EventHandler(this.lbl_suppName_Click);
@@ -81,10 +78,9 @@
             // 
             this.lbl4.BackColor = System.Drawing.Color.Transparent;
             this.lbl4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl4.Location = new System.Drawing.Point(121, 243);
-            this.lbl4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl4.Location = new System.Drawing.Point(161, 299);
             this.lbl4.Name = "lbl4";
-            this.lbl4.Size = new System.Drawing.Size(126, 28);
+            this.lbl4.Size = new System.Drawing.Size(168, 34);
             this.lbl4.TabIndex = 36;
             this.lbl4.Text = "Email";
             // 
@@ -92,10 +88,9 @@
             // 
             this.lbl_ItemID.BackColor = System.Drawing.Color.Transparent;
             this.lbl_ItemID.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_ItemID.Location = new System.Drawing.Point(121, 107);
-            this.lbl_ItemID.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl_ItemID.Location = new System.Drawing.Point(161, 132);
             this.lbl_ItemID.Name = "lbl_ItemID";
-            this.lbl_ItemID.Size = new System.Drawing.Size(126, 28);
+            this.lbl_ItemID.Size = new System.Drawing.Size(168, 34);
             this.lbl_ItemID.TabIndex = 35;
             this.lbl_ItemID.Text = "Emp ID";
             // 
@@ -104,10 +99,10 @@
             this.btn_empInfoBack.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btn_empInfoBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_empInfoBack.ForeColor = System.Drawing.Color.Yellow;
-            this.btn_empInfoBack.Location = new System.Drawing.Point(524, 363);
-            this.btn_empInfoBack.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_empInfoBack.Location = new System.Drawing.Point(699, 447);
+            this.btn_empInfoBack.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_empInfoBack.Name = "btn_empInfoBack";
-            this.btn_empInfoBack.Size = new System.Drawing.Size(134, 40);
+            this.btn_empInfoBack.Size = new System.Drawing.Size(179, 49);
             this.btn_empInfoBack.TabIndex = 34;
             this.btn_empInfoBack.Text = "Back";
             this.btn_empInfoBack.UseVisualStyleBackColor = false;
@@ -117,71 +112,70 @@
             // 
             this.lbl1.BackColor = System.Drawing.Color.Transparent;
             this.lbl1.Font = new System.Drawing.Font("Book Antiqua", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl1.Location = new System.Drawing.Point(179, 18);
-            this.lbl1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl1.Location = new System.Drawing.Point(239, 22);
             this.lbl1.Name = "lbl1";
-            this.lbl1.Size = new System.Drawing.Size(302, 50);
+            this.lbl1.Size = new System.Drawing.Size(403, 62);
             this.lbl1.TabIndex = 33;
             this.lbl1.Text = "Employees Info";
             // 
             // txt_empBid
             // 
             this.txt_empBid.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_empBid.Location = new System.Drawing.Point(339, 289);
-            this.txt_empBid.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_empBid.Location = new System.Drawing.Point(452, 356);
+            this.txt_empBid.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txt_empBid.Multiline = true;
             this.txt_empBid.Name = "txt_empBid";
-            this.txt_empBid.Size = new System.Drawing.Size(193, 32);
+            this.txt_empBid.Size = new System.Drawing.Size(256, 38);
             this.txt_empBid.TabIndex = 32;
             // 
             // txt_empEmail
             // 
             this.txt_empEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_empEmail.Location = new System.Drawing.Point(339, 243);
-            this.txt_empEmail.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_empEmail.Location = new System.Drawing.Point(452, 299);
+            this.txt_empEmail.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txt_empEmail.Multiline = true;
             this.txt_empEmail.Name = "txt_empEmail";
-            this.txt_empEmail.Size = new System.Drawing.Size(193, 32);
+            this.txt_empEmail.Size = new System.Drawing.Size(256, 38);
             this.txt_empEmail.TabIndex = 31;
             // 
             // txt_empSalary
             // 
             this.txt_empSalary.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_empSalary.Location = new System.Drawing.Point(339, 199);
-            this.txt_empSalary.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_empSalary.Location = new System.Drawing.Point(452, 245);
+            this.txt_empSalary.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txt_empSalary.Multiline = true;
             this.txt_empSalary.Name = "txt_empSalary";
-            this.txt_empSalary.Size = new System.Drawing.Size(193, 32);
+            this.txt_empSalary.Size = new System.Drawing.Size(256, 38);
             this.txt_empSalary.TabIndex = 30;
             // 
             // txt_empName
             // 
             this.txt_empName.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_empName.Location = new System.Drawing.Point(339, 151);
-            this.txt_empName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_empName.Location = new System.Drawing.Point(452, 186);
+            this.txt_empName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txt_empName.Multiline = true;
             this.txt_empName.Name = "txt_empName";
-            this.txt_empName.Size = new System.Drawing.Size(193, 32);
+            this.txt_empName.Size = new System.Drawing.Size(256, 38);
             this.txt_empName.TabIndex = 29;
             // 
             // cbx_empId
             // 
             this.cbx_empId.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbx_empId.FormattingEnabled = true;
-            this.cbx_empId.ItemHeight = 22;
-            this.cbx_empId.Location = new System.Drawing.Point(339, 105);
-            this.cbx_empId.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbx_empId.ItemHeight = 29;
+            this.cbx_empId.Location = new System.Drawing.Point(452, 129);
+            this.cbx_empId.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbx_empId.Name = "cbx_empId";
-            this.cbx_empId.Size = new System.Drawing.Size(193, 30);
+            this.cbx_empId.Size = new System.Drawing.Size(256, 37);
             this.cbx_empId.TabIndex = 28;
             this.cbx_empId.SelectedIndexChanged += new System.EventHandler(this.cbx_empId_SelectedIndexChanged);
             // 
             // empInfo
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(676, 421);
+            this.ClientSize = new System.Drawing.Size(901, 518);
             this.Controls.Add(this.lbl2);
             this.Controls.Add(this.lbl3);
             this.Controls.Add(this.lbl5);
@@ -194,10 +188,11 @@
             this.Controls.Add(this.txt_empSalary);
             this.Controls.Add(this.txt_empName);
             this.Controls.Add(this.cbx_empId);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "empInfo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Emplyees Info";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.empInfo_FormClosing);
             this.Load += new System.EventHandler(this.empInfo_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

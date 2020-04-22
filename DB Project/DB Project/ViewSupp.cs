@@ -53,7 +53,7 @@ namespace DB_Project
         private void cbx_SuppName_SelectedIndexChanged(object sender, EventArgs e)
         {
             //A. Using ODP.Net connected mode (OracleConnection and OracleCommand) to:
-            //4. Insert , Update and Delete rows (without using procedures)
+            //4. Select ONE row from DB using stored Procedures (without using sysRefCursor [use outparameters of number data type only])
             OracleCommand c = new OracleCommand();
             c.Connection = conn;
             c.CommandText = "GetSuppInfo";
@@ -79,6 +79,11 @@ namespace DB_Project
         private void lbl_viewSuppName_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void ViewSupp_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            conn.Dispose();
         }
     }
 }

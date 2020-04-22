@@ -42,41 +42,39 @@
             // 
             this.lbl_AddCattitle.BackColor = System.Drawing.Color.Transparent;
             this.lbl_AddCattitle.Font = new System.Drawing.Font("Book Antiqua", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_AddCattitle.Location = new System.Drawing.Point(11, 18);
-            this.lbl_AddCattitle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl_AddCattitle.Location = new System.Drawing.Point(15, 22);
             this.lbl_AddCattitle.Name = "lbl_AddCattitle";
-            this.lbl_AddCattitle.Size = new System.Drawing.Size(290, 61);
+            this.lbl_AddCattitle.Size = new System.Drawing.Size(387, 75);
             this.lbl_AddCattitle.TabIndex = 4;
             this.lbl_AddCattitle.Text = "Add Category";
             // 
             // txt_addCatID
             // 
             this.txt_addCatID.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_addCatID.Location = new System.Drawing.Point(242, 155);
-            this.txt_addCatID.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_addCatID.Location = new System.Drawing.Point(323, 191);
+            this.txt_addCatID.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txt_addCatID.Multiline = true;
             this.txt_addCatID.Name = "txt_addCatID";
-            this.txt_addCatID.Size = new System.Drawing.Size(193, 32);
+            this.txt_addCatID.Size = new System.Drawing.Size(256, 38);
             this.txt_addCatID.TabIndex = 12;
             // 
             // txt_addCatName
             // 
             this.txt_addCatName.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_addCatName.Location = new System.Drawing.Point(242, 246);
-            this.txt_addCatName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_addCatName.Location = new System.Drawing.Point(323, 303);
+            this.txt_addCatName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txt_addCatName.Multiline = true;
             this.txt_addCatName.Name = "txt_addCatName";
-            this.txt_addCatName.Size = new System.Drawing.Size(193, 32);
+            this.txt_addCatName.Size = new System.Drawing.Size(256, 38);
             this.txt_addCatName.TabIndex = 13;
             // 
             // lbl_AddCatName
             // 
             this.lbl_AddCatName.BackColor = System.Drawing.Color.Transparent;
             this.lbl_AddCatName.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_AddCatName.Location = new System.Drawing.Point(25, 246);
-            this.lbl_AddCatName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl_AddCatName.Location = new System.Drawing.Point(33, 303);
             this.lbl_AddCatName.Name = "lbl_AddCatName";
-            this.lbl_AddCatName.Size = new System.Drawing.Size(167, 28);
+            this.lbl_AddCatName.Size = new System.Drawing.Size(223, 34);
             this.lbl_AddCatName.TabIndex = 14;
             this.lbl_AddCatName.Text = "Category Name";
             // 
@@ -84,10 +82,9 @@
             // 
             this.lbl_addCatID.BackColor = System.Drawing.Color.Transparent;
             this.lbl_addCatID.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_addCatID.Location = new System.Drawing.Point(25, 155);
-            this.lbl_addCatID.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl_addCatID.Location = new System.Drawing.Point(33, 191);
             this.lbl_addCatID.Name = "lbl_addCatID";
-            this.lbl_addCatID.Size = new System.Drawing.Size(126, 28);
+            this.lbl_addCatID.Size = new System.Drawing.Size(168, 34);
             this.lbl_addCatID.TabIndex = 15;
             this.lbl_addCatID.Text = "CatID";
             // 
@@ -96,10 +93,10 @@
             this.btn_AddCat.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btn_AddCat.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_AddCat.ForeColor = System.Drawing.Color.Yellow;
-            this.btn_AddCat.Location = new System.Drawing.Point(467, 358);
-            this.btn_AddCat.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_AddCat.Location = new System.Drawing.Point(623, 441);
+            this.btn_AddCat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_AddCat.Name = "btn_AddCat";
-            this.btn_AddCat.Size = new System.Drawing.Size(168, 43);
+            this.btn_AddCat.Size = new System.Drawing.Size(224, 53);
             this.btn_AddCat.TabIndex = 17;
             this.btn_AddCat.Text = "Add";
             this.btn_AddCat.UseVisualStyleBackColor = false;
@@ -110,10 +107,10 @@
             this.btn_AddCatback.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btn_AddCatback.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_AddCatback.ForeColor = System.Drawing.Color.Yellow;
-            this.btn_AddCatback.Location = new System.Drawing.Point(46, 362);
-            this.btn_AddCatback.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_AddCatback.Location = new System.Drawing.Point(61, 446);
+            this.btn_AddCatback.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_AddCatback.Name = "btn_AddCatback";
-            this.btn_AddCatback.Size = new System.Drawing.Size(146, 40);
+            this.btn_AddCatback.Size = new System.Drawing.Size(195, 49);
             this.btn_AddCatback.TabIndex = 18;
             this.btn_AddCatback.Text = "Back";
             this.btn_AddCatback.UseVisualStyleBackColor = false;
@@ -121,10 +118,10 @@
             // 
             // AddCategory
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(676, 421);
+            this.ClientSize = new System.Drawing.Size(901, 518);
             this.Controls.Add(this.btn_AddCatback);
             this.Controls.Add(this.btn_AddCat);
             this.Controls.Add(this.lbl_addCatID);
@@ -132,10 +129,11 @@
             this.Controls.Add(this.txt_addCatName);
             this.Controls.Add(this.txt_addCatID);
             this.Controls.Add(this.lbl_AddCattitle);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "AddCategory";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AddCategory";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.AddCategory_FormClosing);
             this.Load += new System.EventHandler(this.AddCategory_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

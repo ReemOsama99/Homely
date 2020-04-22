@@ -44,10 +44,9 @@
             // 
             this.lbl_n.BackColor = System.Drawing.Color.Transparent;
             this.lbl_n.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_n.Location = new System.Drawing.Point(76, 82);
-            this.lbl_n.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl_n.Location = new System.Drawing.Point(101, 101);
             this.lbl_n.Name = "lbl_n";
-            this.lbl_n.Size = new System.Drawing.Size(208, 34);
+            this.lbl_n.Size = new System.Drawing.Size(277, 42);
             this.lbl_n.TabIndex = 38;
             this.lbl_n.Text = "Category Name";
             // 
@@ -55,10 +54,9 @@
             // 
             this.lbl1.BackColor = System.Drawing.Color.Transparent;
             this.lbl1.Font = new System.Drawing.Font("Book Antiqua", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl1.Location = new System.Drawing.Point(73, 9);
-            this.lbl1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl1.Location = new System.Drawing.Point(97, 11);
             this.lbl1.Name = "lbl1";
-            this.lbl1.Size = new System.Drawing.Size(302, 50);
+            this.lbl1.Size = new System.Drawing.Size(403, 62);
             this.lbl1.TabIndex = 37;
             this.lbl1.Text = "Category Items";
             // 
@@ -66,11 +64,11 @@
             // 
             this.cbx_categName.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbx_categName.FormattingEnabled = true;
-            this.cbx_categName.ItemHeight = 22;
-            this.cbx_categName.Location = new System.Drawing.Point(288, 86);
-            this.cbx_categName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbx_categName.ItemHeight = 29;
+            this.cbx_categName.Location = new System.Drawing.Point(384, 106);
+            this.cbx_categName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbx_categName.Name = "cbx_categName";
-            this.cbx_categName.Size = new System.Drawing.Size(193, 30);
+            this.cbx_categName.Size = new System.Drawing.Size(256, 37);
             this.cbx_categName.TabIndex = 36;
             this.cbx_categName.SelectedIndexChanged += new System.EventHandler(this.cbx_categName_SelectedIndexChanged);
             // 
@@ -83,12 +81,12 @@
             this.Item_Name,
             this.price,
             this.rate});
-            this.dgvCategItems.Location = new System.Drawing.Point(81, 147);
-            this.dgvCategItems.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvCategItems.Location = new System.Drawing.Point(108, 181);
+            this.dgvCategItems.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvCategItems.Name = "dgvCategItems";
             this.dgvCategItems.ReadOnly = true;
             this.dgvCategItems.RowTemplate.Height = 24;
-            this.dgvCategItems.Size = new System.Drawing.Size(290, 264);
+            this.dgvCategItems.Size = new System.Drawing.Size(387, 325);
             this.dgvCategItems.TabIndex = 39;
             // 
             // Item_Name
@@ -114,10 +112,10 @@
             this.btn_viewSuppBack.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btn_viewSuppBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_viewSuppBack.ForeColor = System.Drawing.Color.Yellow;
-            this.btn_viewSuppBack.Location = new System.Drawing.Point(440, 369);
-            this.btn_viewSuppBack.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_viewSuppBack.Location = new System.Drawing.Point(587, 454);
+            this.btn_viewSuppBack.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_viewSuppBack.Name = "btn_viewSuppBack";
-            this.btn_viewSuppBack.Size = new System.Drawing.Size(206, 42);
+            this.btn_viewSuppBack.Size = new System.Drawing.Size(275, 52);
             this.btn_viewSuppBack.TabIndex = 40;
             this.btn_viewSuppBack.Text = "Back";
             this.btn_viewSuppBack.UseVisualStyleBackColor = false;
@@ -125,19 +123,20 @@
             // 
             // ViewCategoryItems
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(676, 434);
+            this.ClientSize = new System.Drawing.Size(901, 534);
             this.Controls.Add(this.btn_viewSuppBack);
             this.Controls.Add(this.dgvCategItems);
             this.Controls.Add(this.lbl_n);
             this.Controls.Add(this.lbl1);
             this.Controls.Add(this.cbx_categName);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "ViewCategoryItems";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ViewCategoryItems";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ViewCategoryItems_FormClosing);
             this.Load += new System.EventHandler(this.ViewCategoryItems_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvCategItems)).EndInit();
             this.ResumeLayout(false);

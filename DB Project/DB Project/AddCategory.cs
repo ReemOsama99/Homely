@@ -47,7 +47,7 @@ namespace DB_Project
                 int r = cmd.ExecuteNonQuery();
                 if (r != -1)
                 {
-                    MessageBox.Show("Item Modified", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Item Added", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
             catch
@@ -56,6 +56,11 @@ namespace DB_Project
             }
             txt_addCatID.Clear();
             txt_addCatName.Clear();
+        }
+
+        private void AddCategory_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            conn.Dispose();
         }
     }
 }

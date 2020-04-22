@@ -41,31 +41,30 @@
             // 
             this.cbx_SuppName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbx_SuppName.FormattingEnabled = true;
-            this.cbx_SuppName.Location = new System.Drawing.Point(312, 127);
-            this.cbx_SuppName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbx_SuppName.Location = new System.Drawing.Point(416, 156);
+            this.cbx_SuppName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbx_SuppName.Name = "cbx_SuppName";
-            this.cbx_SuppName.Size = new System.Drawing.Size(193, 28);
+            this.cbx_SuppName.Size = new System.Drawing.Size(256, 33);
             this.cbx_SuppName.TabIndex = 0;
             this.cbx_SuppName.SelectedIndexChanged += new System.EventHandler(this.cbx_SuppName_SelectedIndexChanged);
             // 
             // txt_suppNumber
             // 
             this.txt_suppNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_suppNumber.Location = new System.Drawing.Point(313, 189);
-            this.txt_suppNumber.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_suppNumber.Location = new System.Drawing.Point(417, 233);
+            this.txt_suppNumber.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txt_suppNumber.Multiline = true;
             this.txt_suppNumber.Name = "txt_suppNumber";
-            this.txt_suppNumber.Size = new System.Drawing.Size(193, 32);
+            this.txt_suppNumber.Size = new System.Drawing.Size(256, 38);
             this.txt_suppNumber.TabIndex = 14;
             // 
             // lbl_ViewSuppNum
             // 
             this.lbl_ViewSuppNum.BackColor = System.Drawing.Color.Transparent;
             this.lbl_ViewSuppNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_ViewSuppNum.Location = new System.Drawing.Point(138, 189);
-            this.lbl_ViewSuppNum.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl_ViewSuppNum.Location = new System.Drawing.Point(184, 233);
             this.lbl_ViewSuppNum.Name = "lbl_ViewSuppNum";
-            this.lbl_ViewSuppNum.Size = new System.Drawing.Size(157, 34);
+            this.lbl_ViewSuppNum.Size = new System.Drawing.Size(209, 42);
             this.lbl_ViewSuppNum.TabIndex = 22;
             this.lbl_ViewSuppNum.Text = "Number";
             // 
@@ -73,10 +72,9 @@
             // 
             this.lbl_viewSuppName.BackColor = System.Drawing.Color.Transparent;
             this.lbl_viewSuppName.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_viewSuppName.Location = new System.Drawing.Point(138, 127);
-            this.lbl_viewSuppName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl_viewSuppName.Location = new System.Drawing.Point(184, 156);
             this.lbl_viewSuppName.Name = "lbl_viewSuppName";
-            this.lbl_viewSuppName.Size = new System.Drawing.Size(87, 34);
+            this.lbl_viewSuppName.Size = new System.Drawing.Size(160, 42);
             this.lbl_viewSuppName.TabIndex = 24;
             this.lbl_viewSuppName.Text = "Name";
             this.lbl_viewSuppName.Click += new System.EventHandler(this.lbl_viewSuppName_Click);
@@ -86,10 +84,10 @@
             this.btn_viewSuppBack.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btn_viewSuppBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_viewSuppBack.ForeColor = System.Drawing.Color.Yellow;
-            this.btn_viewSuppBack.Location = new System.Drawing.Point(253, 351);
-            this.btn_viewSuppBack.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_viewSuppBack.Location = new System.Drawing.Point(337, 432);
+            this.btn_viewSuppBack.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_viewSuppBack.Name = "btn_viewSuppBack";
-            this.btn_viewSuppBack.Size = new System.Drawing.Size(206, 42);
+            this.btn_viewSuppBack.Size = new System.Drawing.Size(275, 52);
             this.btn_viewSuppBack.TabIndex = 25;
             this.btn_viewSuppBack.Text = "Back";
             this.btn_viewSuppBack.UseVisualStyleBackColor = false;
@@ -99,29 +97,29 @@
             // 
             this.lbl_sysLoginTitle.BackColor = System.Drawing.Color.Transparent;
             this.lbl_sysLoginTitle.Font = new System.Drawing.Font("Book Antiqua", 30.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_sysLoginTitle.Location = new System.Drawing.Point(244, 25);
-            this.lbl_sysLoginTitle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl_sysLoginTitle.Location = new System.Drawing.Point(325, 31);
             this.lbl_sysLoginTitle.Name = "lbl_sysLoginTitle";
-            this.lbl_sysLoginTitle.Size = new System.Drawing.Size(224, 50);
+            this.lbl_sysLoginTitle.Size = new System.Drawing.Size(299, 62);
             this.lbl_sysLoginTitle.TabIndex = 26;
             this.lbl_sysLoginTitle.Text = "Suppliers";
             // 
             // ViewSupp
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(707, 421);
+            this.ClientSize = new System.Drawing.Size(943, 518);
             this.Controls.Add(this.lbl_sysLoginTitle);
             this.Controls.Add(this.btn_viewSuppBack);
             this.Controls.Add(this.lbl_viewSuppName);
             this.Controls.Add(this.lbl_ViewSuppNum);
             this.Controls.Add(this.txt_suppNumber);
             this.Controls.Add(this.cbx_SuppName);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "ViewSupp";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ViewSupp";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ViewSupp_FormClosing);
             this.Load += new System.EventHandler(this.ViewSupp_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

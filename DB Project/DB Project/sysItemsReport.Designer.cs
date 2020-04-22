@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(sysItemsReport));
             this.ItemsReportViewer1 = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
             this.SuspendLayout();
             // 
@@ -38,9 +39,9 @@
             this.ItemsReportViewer1.Cursor = System.Windows.Forms.Cursors.Default;
             this.ItemsReportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ItemsReportViewer1.Location = new System.Drawing.Point(0, 0);
-            this.ItemsReportViewer1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ItemsReportViewer1.Margin = new System.Windows.Forms.Padding(4);
             this.ItemsReportViewer1.Name = "ItemsReportViewer1";
-            this.ItemsReportViewer1.Size = new System.Drawing.Size(1312, 567);
+            this.ItemsReportViewer1.Size = new System.Drawing.Size(1416, 800);
             this.ItemsReportViewer1.TabIndex = 0;
             this.ItemsReportViewer1.ToolPanelWidth = 267;
             // 
@@ -48,9 +49,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1312, 567);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(1416, 800);
             this.Controls.Add(this.ItemsReportViewer1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "sysItemsReport";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "sysItemsReport";

@@ -129,3 +129,9 @@ C:\Users\Mariem Ahmed\Downloads\DB Project\DB Project\obj\Debug\DB Project.cspro
 C:\Users\Mariem Ahmed\Downloads\DB Project\DB Project\obj\Debug\DB Project.csproj.CoreCompileInputs.cache
 C:\Users\Mariem Ahmed\Downloads\DB Project\DB Project\obj\Debug\DB Project.exe
 C:\Users\Mariem Ahmed\Downloads\DB Project\DB Project\obj\Debug\DB Project.pdb
+F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.BillReport.resources
+F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.CategoriesReport.resources
+F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.sysAddItem.resources
+F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.sysItemsReport.resources
+F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.sysUpdateCat.resources
+F:\D\Uni\Github repos\Homely\DB Project\DB Project\obj\Debug\DB_Project.ViewCategoryItems.resources
